@@ -1,0 +1,9449 @@
+{
+  "centre": {
+    "postcode": "SY14 7JX",
+    "lat": 52.995855,
+    "lon": -2.764698,
+    "easting": 348772,
+    "northing": 344553
+  },
+  "bbox": {
+    "minLat": 52.993159,
+    "maxLat": 52.998551,
+    "minLon": -2.769176,
+    "maxLon": -2.76022,
+    "minE": 348472,
+    "maxE": 349072,
+    "minN": 344253,
+    "maxN": 344853
+  },
+  "buildings": [
+    {
+      "id": "bldg-valley-chapel",
+      "name": "Valley Chapel (SY14 7JX)",
+      "type": "chapel",
+      "footprint": [
+        [
+          -7.64,
+          4.75
+        ],
+        [
+          -3.83,
+          -8.52
+        ],
+        [
+          4.44,
+          -6.15
+        ],
+        [
+          0.63,
+          7.12
+        ]
+      ],
+      "center": [
+        -1.6,
+        -0.7
+      ],
+      "eavesHeight": 4.6,
+      "ridgeHeight": 7.4,
+      "levels": 1,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "chapel",
+        "name": "Valley Chapel (SY14 7JX)"
+      }
+    },
+    {
+      "id": "bldg-valley-chapel-annexe",
+      "name": "Valley Chapel North Wing",
+      "type": "house",
+      "footprint": [
+        [
+          -7.7,
+          -16.65
+        ],
+        [
+          3.26,
+          -13.5
+        ],
+        [
+          1.5,
+          -7.35
+        ],
+        [
+          -9.46,
+          -10.5
+        ]
+      ],
+      "center": [
+        -3.1,
+        -12
+      ],
+      "eavesHeight": 3.6,
+      "ridgeHeight": 5.4,
+      "levels": 1,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "house",
+        "name": "Valley Chapel North Wing"
+      }
+    },
+    {
+      "id": "bldg-vale-cottage",
+      "name": "Vale Cottage",
+      "type": "house",
+      "footprint": [
+        [
+          10.84,
+          -28.6
+        ],
+        [
+          20.61,
+          -36.23
+        ],
+        [
+          25.16,
+          -30.4
+        ],
+        [
+          15.39,
+          -22.77
+        ]
+      ],
+      "center": [
+        18,
+        -29.5
+      ],
+      "eavesHeight": 5.2,
+      "ridgeHeight": 8.2,
+      "levels": 2,
+      "wallMaterial": "render",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "WallColorHex": "#dce8dc",
+      "tags": {
+        "building": "house",
+        "name": "Vale Cottage"
+      }
+    },
+    {
+      "id": "bldg-vale-cottage-wing",
+      "type": "outbuilding",
+      "footprint": [
+        [
+          21.96,
+          -36.69
+        ],
+        [
+          29.76,
+          -41.57
+        ],
+        [
+          33.04,
+          -36.31
+        ],
+        [
+          25.24,
+          -31.43
+        ]
+      ],
+      "center": [
+        27.5,
+        -36.5
+      ],
+      "eavesHeight": 3.6,
+      "ridgeHeight": 5.5,
+      "levels": 1,
+      "wallMaterial": "render",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "WallColorHex": "#dce8dc",
+      "tags": {
+        "building": "outbuilding"
+      }
+    },
+    {
+      "id": "bldg-brook-side",
+      "name": "Brook Side",
+      "type": "house",
+      "footprint": [
+        [
+          50.65,
+          -50.69
+        ],
+        [
+          64.53,
+          -47.74
+        ],
+        [
+          62.95,
+          -40.31
+        ],
+        [
+          49.07,
+          -43.26
+        ]
+      ],
+      "center": [
+        56.8,
+        -45.5
+      ],
+      "eavesHeight": 5.1,
+      "ridgeHeight": 7.7,
+      "levels": 2,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "house",
+        "name": "Brook Side"
+      }
+    },
+    {
+      "id": "bldg-coppice-cottage",
+      "name": "Coppice Cottage",
+      "type": "house",
+      "footprint": [
+        [
+          75.27,
+          -56.26
+        ],
+        [
+          90.6,
+          -52.44
+        ],
+        [
+          88.13,
+          -42.54
+        ],
+        [
+          72.8,
+          -46.36
+        ]
+      ],
+      "center": [
+        81.7,
+        -49.4
+      ],
+      "eavesHeight": 5.3,
+      "ridgeHeight": 8.5,
+      "levels": 2,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "house",
+        "name": "Coppice Cottage"
+      }
+    },
+    {
+      "id": "bldg-coppice-outbuilding",
+      "type": "outbuilding",
+      "footprint": [
+        [
+          69.91,
+          -68.01
+        ],
+        [
+          83.49,
+          -64.62
+        ],
+        [
+          82.09,
+          -58.99
+        ],
+        [
+          68.51,
+          -62.38
+        ]
+      ],
+      "center": [
+        76,
+        -63.5
+      ],
+      "eavesHeight": 2.9,
+      "ridgeHeight": 4.3,
+      "levels": 1,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "outbuilding"
+      }
+    },
+    {
+      "id": "bldg-wigland-lane-barn",
+      "type": "barn",
+      "footprint": [
+        [
+          95.93,
+          -29.27
+        ],
+        [
+          108.2,
+          -33.26
+        ],
+        [
+          109.87,
+          -28.13
+        ],
+        [
+          97.6,
+          -24.14
+        ]
+      ],
+      "center": [
+        102.9,
+        -28.7
+      ],
+      "eavesHeight": 3.1,
+      "ridgeHeight": 4.7,
+      "levels": 1,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "barn"
+      }
+    },
+    {
+      "id": "bldg-olivers-cottage",
+      "name": "Olivers Cottage & Hill House",
+      "type": "house",
+      "footprint": [
+        [
+          133.22,
+          -43.46
+        ],
+        [
+          150.33,
+          -48.37
+        ],
+        [
+          152.98,
+          -39.14
+        ],
+        [
+          135.87,
+          -34.23
+        ]
+      ],
+      "center": [
+        143.1,
+        -41.3
+      ],
+      "eavesHeight": 5.2,
+      "ridgeHeight": 8,
+      "levels": 2,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "house",
+        "name": "Olivers Cottage & Hill House"
+      }
+    },
+    {
+      "id": "bldg-valley-paddock-west",
+      "type": "farm_auxiliary",
+      "footprint": [
+        [
+          19.75,
+          7.29
+        ],
+        [
+          21.42,
+          23.21
+        ],
+        [
+          16.65,
+          23.71
+        ],
+        [
+          14.98,
+          7.79
+        ]
+      ],
+      "center": [
+        18.2,
+        15.5
+      ],
+      "eavesHeight": 2.8,
+      "ridgeHeight": 4.1,
+      "levels": 1,
+      "wallMaterial": "farm_clad",
+      "roofMaterial": "metal",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "farm_auxiliary"
+      }
+    },
+    {
+      "id": "bldg-valley-paddock-east",
+      "type": "farm_auxiliary",
+      "footprint": [
+        [
+          38.86,
+          3.1
+        ],
+        [
+          39.73,
+          15.57
+        ],
+        [
+          35.14,
+          15.9
+        ],
+        [
+          34.27,
+          3.43
+        ]
+      ],
+      "center": [
+        37,
+        9.5
+      ],
+      "eavesHeight": 2.8,
+      "ridgeHeight": 4.1,
+      "levels": 1,
+      "wallMaterial": "farm_clad",
+      "roofMaterial": "metal",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "farm_auxiliary"
+      }
+    },
+    {
+      "id": "bldg-valley-paddock-shed",
+      "type": "outbuilding",
+      "footprint": [
+        [
+          2.56,
+          18.53
+        ],
+        [
+          8.43,
+          19.78
+        ],
+        [
+          7.44,
+          24.47
+        ],
+        [
+          1.57,
+          23.22
+        ]
+      ],
+      "center": [
+        5,
+        21.5
+      ],
+      "eavesHeight": 2.7,
+      "ridgeHeight": 3.8,
+      "levels": 1,
+      "wallMaterial": "timber",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "outbuilding"
+      }
+    },
+    {
+      "id": "bldg-west-brook-stables-1",
+      "type": "farm_auxiliary",
+      "footprint": [
+        [
+          -40.76,
+          19.03
+        ],
+        [
+          -34.16,
+          12.2
+        ],
+        [
+          -29.84,
+          16.37
+        ],
+        [
+          -36.44,
+          23.2
+        ]
+      ],
+      "center": [
+        -35.3,
+        17.7
+      ],
+      "eavesHeight": 2.8,
+      "ridgeHeight": 4.1,
+      "levels": 1,
+      "wallMaterial": "timber",
+      "roofMaterial": "metal",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "farm_auxiliary"
+      }
+    },
+    {
+      "id": "bldg-west-brook-stables-2",
+      "type": "farm_auxiliary",
+      "footprint": [
+        [
+          -26.6,
+          16.71
+        ],
+        [
+          -19.2,
+          23.86
+        ],
+        [
+          -25.8,
+          30.69
+        ],
+        [
+          -33.2,
+          23.54
+        ]
+      ],
+      "center": [
+        -26.2,
+        23.7
+      ],
+      "eavesHeight": 2.9,
+      "ridgeHeight": 4.3,
+      "levels": 1,
+      "wallMaterial": "farm_clad",
+      "roofMaterial": "metal",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "farm_auxiliary"
+      }
+    },
+    {
+      "id": "bldg-wellmeadow-east-cottage",
+      "name": "Wellmeadow Cottage",
+      "type": "house",
+      "footprint": [
+        [
+          289.68,
+          30.55
+        ],
+        [
+          301.55,
+          42.01
+        ],
+        [
+          295.72,
+          48.05
+        ],
+        [
+          283.85,
+          36.59
+        ]
+      ],
+      "center": [
+        292.7,
+        39.3
+      ],
+      "eavesHeight": 4.6,
+      "ridgeHeight": 6.8,
+      "levels": 2,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "house",
+        "name": "Wellmeadow Cottage"
+      }
+    },
+    {
+      "id": "bldg-wych-brook-cottage",
+      "name": "Wych Brook Cottage",
+      "type": "house",
+      "footprint": [
+        [
+          -243.79,
+          133.2
+        ],
+        [
+          -235.76,
+          123.62
+        ],
+        [
+          -231.01,
+          127.6
+        ],
+        [
+          -239.04,
+          137.18
+        ]
+      ],
+      "center": [
+        -237.4,
+        130.4
+      ],
+      "eavesHeight": 4.8,
+      "ridgeHeight": 7.2,
+      "levels": 2,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "house",
+        "name": "Wych Brook Cottage"
+      }
+    },
+    {
+      "id": "bldg-bridge-dutch-barn",
+      "name": "Lower Lanes Farm Dutch Barn",
+      "type": "barn",
+      "footprint": [
+        [
+          -265.62,
+          154.15
+        ],
+        [
+          -252.77,
+          167.46
+        ],
+        [
+          -259.38,
+          173.85
+        ],
+        [
+          -272.23,
+          160.54
+        ]
+      ],
+      "center": [
+        -262.5,
+        164
+      ],
+      "eavesHeight": 4.8,
+      "ridgeHeight": 7.2,
+      "levels": 1,
+      "wallMaterial": "farm_clad",
+      "roofMaterial": "metal",
+      "roofShape": "gabled",
+      "WallColorHex": "#2b3230",
+      "tags": {
+        "building": "barn",
+        "name": "Lower Lanes Farm Dutch Barn"
+      }
+    },
+    {
+      "id": "bldg-bridge-stone-shippon",
+      "name": "Lower Lanes Farm Shippon",
+      "type": "farm_auxiliary",
+      "footprint": [
+        [
+          -253.32,
+          168.84
+        ],
+        [
+          -243.62,
+          179.61
+        ],
+        [
+          -248.68,
+          184.16
+        ],
+        [
+          -258.38,
+          173.39
+        ]
+      ],
+      "center": [
+        -251,
+        176.5
+      ],
+      "eavesHeight": 3.8,
+      "ridgeHeight": 5.8,
+      "levels": 1,
+      "wallMaterial": "stone",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "farm_auxiliary",
+        "name": "Lower Lanes Farm Shippon"
+      }
+    },
+    {
+      "id": "bldg-bridge-cattle-shed",
+      "type": "farm_auxiliary",
+      "footprint": [
+        [
+          -276.66,
+          164.85
+        ],
+        [
+          -259.99,
+          182.12
+        ],
+        [
+          -269.34,
+          191.15
+        ],
+        [
+          -286.01,
+          173.88
+        ]
+      ],
+      "center": [
+        -273,
+        178
+      ],
+      "eavesHeight": 4,
+      "ridgeHeight": 6.2,
+      "levels": 1,
+      "wallMaterial": "farm_clad",
+      "roofMaterial": "metal",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "farm_auxiliary"
+      }
+    },
+    {
+      "id": "bldg-bridge-west-range",
+      "type": "barn",
+      "footprint": [
+        [
+          -294.43,
+          171.55
+        ],
+        [
+          -281.12,
+          158.7
+        ],
+        [
+          -275.57,
+          164.45
+        ],
+        [
+          -288.88,
+          177.3
+        ]
+      ],
+      "center": [
+        -285,
+        168
+      ],
+      "eavesHeight": 3.8,
+      "ridgeHeight": 5.6,
+      "levels": 1,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "barn"
+      }
+    },
+    {
+      "id": "bldg-the-haven-junction-house",
+      "name": "The Haven",
+      "type": "house",
+      "footprint": [
+        [
+          -229.89,
+          175.31
+        ],
+        [
+          -220.58,
+          168.55
+        ],
+        [
+          -216.11,
+          174.69
+        ],
+        [
+          -225.42,
+          181.45
+        ]
+      ],
+      "center": [
+        -223,
+        175
+      ],
+      "eavesHeight": 5.6,
+      "ridgeHeight": 8.2,
+      "levels": 2,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "house",
+        "name": "The Haven"
+      }
+    },
+    {
+      "id": "bldg-the-haven-annexe",
+      "type": "outbuilding",
+      "footprint": [
+        [
+          -236.77,
+          168.79
+        ],
+        [
+          -231.45,
+          163.65
+        ],
+        [
+          -227.63,
+          167.61
+        ],
+        [
+          -232.95,
+          172.75
+        ]
+      ],
+      "center": [
+        -232.2,
+        168.2
+      ],
+      "eavesHeight": 3.1,
+      "ridgeHeight": 4.7,
+      "levels": 1,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "outbuilding"
+      }
+    },
+    {
+      "id": "bldg-lower-wych-road-barn",
+      "name": "Lower Wych Road Brick Barn",
+      "type": "barn",
+      "footprint": [
+        [
+          -247.68,
+          194.53
+        ],
+        [
+          -236.27,
+          199.62
+        ],
+        [
+          -239.32,
+          206.47
+        ],
+        [
+          -250.73,
+          201.38
+        ]
+      ],
+      "center": [
+        -243.5,
+        200.5
+      ],
+      "eavesHeight": 4.4,
+      "ridgeHeight": 6.5,
+      "levels": 1,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "barn",
+        "name": "Lower Wych Road Brick Barn"
+      }
+    },
+    {
+      "id": "bldg-lower-wych-road-shed",
+      "type": "outbuilding",
+      "footprint": [
+        [
+          -244.11,
+          186.63
+        ],
+        [
+          -236.65,
+          181.96
+        ],
+        [
+          -233.89,
+          186.37
+        ],
+        [
+          -241.35,
+          191.04
+        ]
+      ],
+      "center": [
+        -239,
+        186.5
+      ],
+      "eavesHeight": 3.6,
+      "ridgeHeight": 5.2,
+      "levels": 1,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "outbuilding"
+      }
+    },
+    {
+      "id": "bldg-lower-lanes-south-barn",
+      "type": "barn",
+      "footprint": [
+        [
+          -261.05,
+          236.57
+        ],
+        [
+          -255.4,
+          221.06
+        ],
+        [
+          -248.35,
+          223.63
+        ],
+        [
+          -254,
+          239.14
+        ]
+      ],
+      "center": [
+        -254.7,
+        230.1
+      ],
+      "eavesHeight": 3.4,
+      "ridgeHeight": 5,
+      "levels": 1,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "barn"
+      }
+    },
+    {
+      "id": "bldg-lower-lanes-west-shed",
+      "type": "farm_auxiliary",
+      "footprint": [
+        [
+          -279.41,
+          228.81
+        ],
+        [
+          -270.38,
+          225.87
+        ],
+        [
+          -268.59,
+          231.39
+        ],
+        [
+          -277.62,
+          234.33
+        ]
+      ],
+      "center": [
+        -274,
+        230.1
+      ],
+      "eavesHeight": 3.1,
+      "ridgeHeight": 4.4,
+      "levels": 1,
+      "wallMaterial": "farm_clad",
+      "roofMaterial": "metal",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "farm_auxiliary"
+      }
+    },
+    {
+      "id": "bldg-lower-lanes-great-shed",
+      "type": "farm_auxiliary",
+      "footprint": [
+        [
+          -292.88,
+          275.7
+        ],
+        [
+          -269.93,
+          263.5
+        ],
+        [
+          -263.12,
+          276.3
+        ],
+        [
+          -286.07,
+          288.5
+        ]
+      ],
+      "center": [
+        -278,
+        276
+      ],
+      "eavesHeight": 4.5,
+      "ridgeHeight": 6.4,
+      "levels": 1,
+      "wallMaterial": "farm_clad",
+      "roofMaterial": "metal",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "farm_auxiliary"
+      }
+    },
+    {
+      "id": "bldg-wigland-west-outbuilding",
+      "type": "outbuilding",
+      "footprint": [
+        [
+          -204.05,
+          181.08
+        ],
+        [
+          -194.99,
+          174.5
+        ],
+        [
+          -191.35,
+          179.52
+        ],
+        [
+          -200.41,
+          186.1
+        ]
+      ],
+      "center": [
+        -197.7,
+        180.3
+      ],
+      "eavesHeight": 3.2,
+      "ridgeHeight": 4.8,
+      "levels": 1,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "outbuilding"
+      }
+    },
+    {
+      "id": "bldg-brook-farm-cottage",
+      "name": "Brook Farm Cottage",
+      "type": "house",
+      "footprint": [
+        [
+          -169.74,
+          178.7
+        ],
+        [
+          -155.56,
+          175.68
+        ],
+        [
+          -153.86,
+          183.7
+        ],
+        [
+          -168.04,
+          186.72
+        ]
+      ],
+      "center": [
+        -161.8,
+        181.2
+      ],
+      "eavesHeight": 4.8,
+      "ridgeHeight": 7.4,
+      "levels": 2,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "house",
+        "name": "Brook Farm Cottage"
+      }
+    },
+    {
+      "id": "bldg-howberry-bungalow",
+      "name": "Howberry Bungalow",
+      "type": "house",
+      "footprint": [
+        [
+          -59.29,
+          154.41
+        ],
+        [
+          -49.53,
+          160.5
+        ],
+        [
+          -52.71,
+          165.59
+        ],
+        [
+          -62.47,
+          159.5
+        ]
+      ],
+      "center": [
+        -56,
+        160
+      ],
+      "eavesHeight": 3.4,
+      "ridgeHeight": 5.1,
+      "levels": 1,
+      "wallMaterial": "render",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "house",
+        "name": "Howberry Bungalow"
+      }
+    },
+    {
+      "id": "bldg-the-graigs",
+      "name": "The Graigs",
+      "type": "house",
+      "footprint": [
+        [
+          -64.45,
+          172.83
+        ],
+        [
+          -54.76,
+          165.26
+        ],
+        [
+          -50.15,
+          171.17
+        ],
+        [
+          -59.84,
+          178.74
+        ]
+      ],
+      "center": [
+        -57.3,
+        172
+      ],
+      "eavesHeight": 4.6,
+      "ridgeHeight": 7,
+      "levels": 2,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "house",
+        "name": "The Graigs"
+      }
+    },
+    {
+      "id": "bldg-bishop-bennet-barn",
+      "type": "barn",
+      "footprint": [
+        [
+          -30.88,
+          172.32
+        ],
+        [
+          -14.54,
+          184.19
+        ],
+        [
+          -20.12,
+          191.88
+        ],
+        [
+          -36.46,
+          180.01
+        ]
+      ],
+      "center": [
+        -25.5,
+        182.1
+      ],
+      "eavesHeight": 3.8,
+      "ridgeHeight": 5.8,
+      "levels": 1,
+      "wallMaterial": "farm_clad",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "barn"
+      }
+    },
+    {
+      "id": "bldg-beech-view",
+      "name": "Beech View",
+      "type": "house",
+      "footprint": [
+        [
+          -180.58,
+          -139.27
+        ],
+        [
+          -166.82,
+          -138.31
+        ],
+        [
+          -167.42,
+          -129.73
+        ],
+        [
+          -181.18,
+          -130.69
+        ]
+      ],
+      "center": [
+        -174,
+        -134.5
+      ],
+      "eavesHeight": 4.2,
+      "ridgeHeight": 6.8,
+      "levels": 2,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "house",
+        "name": "Beech View"
+      }
+    },
+    {
+      "id": "bldg-beech-view-garage",
+      "type": "outbuilding",
+      "footprint": [
+        [
+          -164.41,
+          -141.81
+        ],
+        [
+          -158.23,
+          -141.38
+        ],
+        [
+          -158.59,
+          -136.19
+        ],
+        [
+          -164.77,
+          -136.62
+        ]
+      ],
+      "center": [
+        -161.5,
+        -139
+      ],
+      "eavesHeight": 3.2,
+      "ridgeHeight": 4.8,
+      "levels": 1,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "outbuilding"
+      }
+    },
+    {
+      "id": "bldg-hill-farm-barn-west",
+      "name": "Hill Farm Courtyard Barn (West)",
+      "type": "barn",
+      "footprint": [
+        [
+          -146.54,
+          -169.36
+        ],
+        [
+          -145.86,
+          -149.87
+        ],
+        [
+          -152.46,
+          -149.64
+        ],
+        [
+          -153.14,
+          -169.13
+        ]
+      ],
+      "center": [
+        -149.5,
+        -159.5
+      ],
+      "eavesHeight": 4.8,
+      "ridgeHeight": 7.2,
+      "levels": 2,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "barn",
+        "name": "Hill Farm Courtyard Barn (West)"
+      }
+    },
+    {
+      "id": "bldg-hill-farm-barn-north",
+      "name": "Hill Farm Courtyard Barn (North)",
+      "type": "barn",
+      "footprint": [
+        [
+          -148.86,
+          -169.97
+        ],
+        [
+          -124.38,
+          -170.83
+        ],
+        [
+          -124.14,
+          -164.03
+        ],
+        [
+          -148.62,
+          -163.17
+        ]
+      ],
+      "center": [
+        -136.5,
+        -167
+      ],
+      "eavesHeight": 4.8,
+      "ridgeHeight": 7.2,
+      "levels": 2,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "barn",
+        "name": "Hill Farm Courtyard Barn (North)"
+      }
+    },
+    {
+      "id": "bldg-hill-farm-dairy",
+      "type": "barn",
+      "footprint": [
+        [
+          -113.35,
+          -177.62
+        ],
+        [
+          -101.96,
+          -179.22
+        ],
+        [
+          -101.05,
+          -172.78
+        ],
+        [
+          -112.44,
+          -171.18
+        ]
+      ],
+      "center": [
+        -107.2,
+        -175.2
+      ],
+      "eavesHeight": 3.6,
+      "ridgeHeight": 5.2,
+      "levels": 1,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "barn"
+      }
+    },
+    {
+      "id": "bldg-hill-farm-north-shed",
+      "name": "Hill Farm Agricultural Shed",
+      "type": "farm_auxiliary",
+      "footprint": [
+        [
+          -100.11,
+          -179.03
+        ],
+        [
+          -88.11,
+          -199.82
+        ],
+        [
+          -77.29,
+          -193.57
+        ],
+        [
+          -89.29,
+          -172.78
+        ]
+      ],
+      "center": [
+        -88.7,
+        -186.3
+      ],
+      "eavesHeight": 4,
+      "ridgeHeight": 5.8,
+      "levels": 1,
+      "wallMaterial": "farm_clad",
+      "roofMaterial": "metal",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "farm_auxiliary",
+        "name": "Hill Farm Agricultural Shed"
+      }
+    },
+    {
+      "id": "bldg-hill-farm-house",
+      "name": "Hill Farm House",
+      "type": "house",
+      "footprint": [
+        [
+          -96.74,
+          -137.78
+        ],
+        [
+          -78.75,
+          -138.41
+        ],
+        [
+          -78.46,
+          -130.22
+        ],
+        [
+          -96.45,
+          -129.59
+        ]
+      ],
+      "center": [
+        -87.6,
+        -134
+      ],
+      "eavesHeight": 5.4,
+      "ridgeHeight": 8.2,
+      "levels": 2,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "house",
+        "name": "Hill Farm House"
+      }
+    },
+    {
+      "id": "bldg-hill-farm-courtyard-shed",
+      "type": "outbuilding",
+      "footprint": [
+        [
+          -101.92,
+          -155.3
+        ],
+        [
+          -96.43,
+          -155.69
+        ],
+        [
+          -96.08,
+          -150.7
+        ],
+        [
+          -101.57,
+          -150.31
+        ]
+      ],
+      "center": [
+        -99,
+        -153
+      ],
+      "eavesHeight": 3.2,
+      "ridgeHeight": 4.5,
+      "levels": 1,
+      "wallMaterial": "brick",
+      "roofMaterial": "slate",
+      "roofShape": "gabled",
+      "tags": {
+        "building": "outbuilding"
+      }
+    }
+  ],
+  "roads": [
+    {
+      "id": "way-4438077",
+      "name": "The Wychough",
+      "highway": "unclassified",
+      "category": "primary_lane",
+      "surface": "asphalt",
+      "width": 4.6,
+      "bridge": false,
+      "points": [
+        [
+          -230.93,
+          191.66
+        ],
+        [
+          -231.96,
+          186.01
+        ],
+        [
+          -233.68,
+          179.93
+        ],
+        [
+          -236.04,
+          175.4
+        ],
+        [
+          -239.95,
+          169.8
+        ],
+        [
+          -244.73,
+          164.47
+        ],
+        [
+          -252.57,
+          155.66
+        ],
+        [
+          -260.91,
+          147.51
+        ],
+        [
+          -272.39,
+          136.93
+        ]
+      ]
+    },
+    {
+      "id": "way-28197586",
+      "ref": "Wigland FP 5",
+      "highway": "footway",
+      "category": "footpath",
+      "surface": "grass_earth",
+      "width": 1.4,
+      "bridge": false,
+      "points": [
+        [
+          -68.42,
+          139.94
+        ],
+        [
+          -45.09,
+          175.57
+        ],
+        [
+          -25.69,
+          189.83
+        ],
+        [
+          -1.79,
+          221.68
+        ],
+        [
+          17.2,
+          244.04
+        ],
+        [
+          28.05,
+          261.43
+        ],
+        [
+          36.02,
+          282.13
+        ],
+        [
+          45.36,
+          301.14
+        ],
+        [
+          84.85,
+          358.25
+        ],
+        [
+          111.95,
+          393.23
+        ],
+        [
+          127.01,
+          406.22
+        ],
+        [
+          139.86,
+          409.08
+        ],
+        [
+          153.15,
+          416.55
+        ],
+        [
+          160.34,
+          429.58
+        ],
+        [
+          165.8,
+          457.47
+        ],
+        [
+          177,
+          477.71
+        ],
+        [
+          187.21,
+          480.38
+        ],
+        [
+          202.84,
+          481.32
+        ],
+        [
+          226.65,
+          492.37
+        ],
+        [
+          263.74,
+          514.22
+        ],
+        [
+          284.34,
+          536.89
+        ]
+      ]
+    },
+    {
+      "id": "way-28197614",
+      "name": "Wigland Hall Lane",
+      "highway": "unclassified",
+      "category": "country_lane",
+      "surface": "asphalt",
+      "width": 3.8,
+      "bridge": false,
+      "points": [
+        [
+          -230.93,
+          191.66
+        ],
+        [
+          -196.77,
+          166.48
+        ],
+        [
+          -181.79,
+          159.99
+        ],
+        [
+          -166.56,
+          156.48
+        ],
+        [
+          -155.12,
+          154.54
+        ],
+        [
+          -151.1,
+          153.89
+        ],
+        [
+          -134.71,
+          152.27
+        ]
+      ]
+    },
+    {
+      "id": "way-30055181",
+      "ref": "Wychough FP 3",
+      "highway": "footway",
+      "category": "footpath",
+      "surface": "grass_earth",
+      "width": 1.4,
+      "bridge": false,
+      "points": [
+        [
+          -328.51,
+          123.41
+        ],
+        [
+          -340.26,
+          150.63
+        ],
+        [
+          -349.36,
+          166.02
+        ],
+        [
+          -377.16,
+          190.38
+        ],
+        [
+          -393.08,
+          197.77
+        ],
+        [
+          -403.98,
+          205.6
+        ],
+        [
+          -412.94,
+          209.45
+        ],
+        [
+          -429.41,
+          213.16
+        ],
+        [
+          -457.26,
+          189.67
+        ],
+        [
+          -469.69,
+          181.17
+        ],
+        [
+          -497.9,
+          171.67
+        ],
+        [
+          -502.51,
+          158.32
+        ],
+        [
+          -500.16,
+          138.06
+        ],
+        [
+          -503.01,
+          123.73
+        ]
+      ]
+    },
+    {
+      "id": "way-31031529",
+      "name": "Lower Wych Road",
+      "ref": "C146",
+      "highway": "unclassified",
+      "category": "primary_lane",
+      "surface": "asphalt",
+      "width": 4.6,
+      "bridge": false,
+      "points": [
+        [
+          -537.13,
+          479.77
+        ],
+        [
+          -482.49,
+          448.04
+        ],
+        [
+          -438.67,
+          422.5
+        ],
+        [
+          -399.69,
+          393.08
+        ],
+        [
+          -367.47,
+          367.07
+        ],
+        [
+          -341.96,
+          347.61
+        ],
+        [
+          -324.22,
+          335.18
+        ],
+        [
+          -309.09,
+          323.73
+        ],
+        [
+          -288.92,
+          306.95
+        ],
+        [
+          -276.38,
+          295.53
+        ],
+        [
+          -264.55,
+          280.86
+        ],
+        [
+          -257.82,
+          268.09
+        ],
+        [
+          -249.4,
+          255.26
+        ],
+        [
+          -241,
+          242.44
+        ],
+        [
+          -235.82,
+          232.35
+        ],
+        [
+          -232.58,
+          219.87
+        ],
+        [
+          -232.05,
+          214.99
+        ],
+        [
+          -231.59,
+          205.83
+        ],
+        [
+          -230.91,
+          198.09
+        ],
+        [
+          -230.93,
+          191.66
+        ]
+      ]
+    },
+    {
+      "id": "way-107045564",
+      "name": "Wigland Hall Lane",
+      "highway": "unclassified",
+      "category": "country_lane",
+      "surface": "asphalt",
+      "width": 3.8,
+      "bridge": false,
+      "points": [
+        [
+          400.6,
+          -13.35
+        ],
+        [
+          339.22,
+          30.09
+        ],
+        [
+          327.56,
+          35.73
+        ],
+        [
+          314.66,
+          35.58
+        ],
+        [
+          299.11,
+          29.59
+        ],
+        [
+          282.76,
+          20.74
+        ],
+        [
+          261.19,
+          3
+        ],
+        [
+          204.88,
+          -38.92
+        ],
+        [
+          191.24,
+          -48.73
+        ],
+        [
+          173.87,
+          -55.72
+        ],
+        [
+          159.59,
+          -56.41
+        ],
+        [
+          144.8,
+          -54.78
+        ],
+        [
+          109.75,
+          -45.21
+        ],
+        [
+          82.33,
+          -36.18
+        ],
+        [
+          70.18,
+          -32.87
+        ],
+        [
+          56.87,
+          -35.59
+        ],
+        [
+          46.8,
+          -35.29
+        ],
+        [
+          34.61,
+          -33.61
+        ],
+        [
+          25.36,
+          -24.24
+        ],
+        [
+          18.9,
+          -16.23
+        ],
+        [
+          14.54,
+          -3.99
+        ],
+        [
+          11.64,
+          8.41
+        ],
+        [
+          14.71,
+          21.75
+        ],
+        [
+          18.29,
+          35.44
+        ],
+        [
+          19.16,
+          47.3
+        ],
+        [
+          15.77,
+          59.38
+        ],
+        [
+          10.73,
+          72.05
+        ],
+        [
+          3.41,
+          82.51
+        ],
+        [
+          -8.4,
+          90.28
+        ],
+        [
+          -50.06,
+          113.08
+        ],
+        [
+          -61.15,
+          124.44
+        ],
+        [
+          -68.42,
+          139.94
+        ]
+      ]
+    },
+    {
+      "id": "way-329738849",
+      "name": "The Wychough",
+      "highway": "unclassified",
+      "category": "primary_lane",
+      "surface": "asphalt",
+      "width": 4.6,
+      "bridge": false,
+      "points": [
+        [
+          -328.51,
+          123.41
+        ],
+        [
+          -336.17,
+          118.12
+        ],
+        [
+          -338.72,
+          114.62
+        ],
+        [
+          -342.18,
+          110.04
+        ],
+        [
+          -346.49,
+          100.62
+        ],
+        [
+          -349.27,
+          91.08
+        ],
+        [
+          -351.8,
+          81.14
+        ],
+        [
+          -356.92,
+          63.34
+        ],
+        [
+          -361.08,
+          51.38
+        ],
+        [
+          -361.74,
+          44.54
+        ],
+        [
+          -361.06,
+          33.92
+        ],
+        [
+          -359.18,
+          27.47
+        ],
+        [
+          -355.91,
+          19.08
+        ],
+        [
+          -348.33,
+          10.12
+        ],
+        [
+          -339.35,
+          3.86
+        ],
+        [
+          -313.54,
+          -4.31
+        ],
+        [
+          -300.61,
+          -8.49
+        ],
+        [
+          -292.82,
+          -12.22
+        ],
+        [
+          -286.56,
+          -17.43
+        ],
+        [
+          -281.53,
+          -23.8
+        ],
+        [
+          -273.58,
+          -36.94
+        ],
+        [
+          -263.78,
+          -58.12
+        ],
+        [
+          -253.63,
+          -77.57
+        ],
+        [
+          -244.11,
+          -90.03
+        ],
+        [
+          -234.04,
+          -101.38
+        ],
+        [
+          -217.83,
+          -115.86
+        ],
+        [
+          -208.32,
+          -129.02
+        ],
+        [
+          -203.83,
+          -137.91
+        ],
+        [
+          -200.54,
+          -147.06
+        ],
+        [
+          -199.17,
+          -155.08
+        ],
+        [
+          -198.18,
+          -160.97
+        ],
+        [
+          -199.53,
+          -199.96
+        ],
+        [
+          -199.86,
+          -209.84
+        ],
+        [
+          -202.73,
+          -257.63
+        ],
+        [
+          -204.81,
+          -284.48
+        ],
+        [
+          -207.95,
+          -306.35
+        ],
+        [
+          -209.52,
+          -330.29
+        ],
+        [
+          -207.99,
+          -354.11
+        ],
+        [
+          -202.96,
+          -372.26
+        ],
+        [
+          -194.28,
+          -391
+        ],
+        [
+          -180.13,
+          -417.68
+        ],
+        [
+          -176.13,
+          -425.09
+        ],
+        [
+          -172.76,
+          -432.98
+        ],
+        [
+          -169.05,
+          -447.21
+        ],
+        [
+          -167.48,
+          -457.77
+        ],
+        [
+          -167.14,
+          -464.39
+        ],
+        [
+          -168.11,
+          -475.86
+        ],
+        [
+          -169.3,
+          -483.8
+        ],
+        [
+          -171.07,
+          -489
+        ],
+        [
+          -175.35,
+          -499.38
+        ],
+        [
+          -187.36,
+          -518.1
+        ],
+        [
+          -199.91,
+          -535.51
+        ]
+      ]
+    },
+    {
+      "id": "way-693469786",
+      "highway": "service",
+      "category": "driveway",
+      "surface": "asphalt",
+      "width": 3,
+      "bridge": false,
+      "points": [
+        [
+          -199.53,
+          -199.96
+        ],
+        [
+          -186.56,
+          -198.11
+        ],
+        [
+          -170.59,
+          -196.38
+        ],
+        [
+          -160.56,
+          -196.12
+        ],
+        [
+          -154.8,
+          -192.93
+        ],
+        [
+          -149.09,
+          -183.96
+        ],
+        [
+          -120.55,
+          -185.21
+        ],
+        [
+          -108.03,
+          -184.14
+        ]
+      ]
+    },
+    {
+      "id": "way-693469787",
+      "highway": "service",
+      "category": "driveway",
+      "surface": "asphalt",
+      "width": 3,
+      "bridge": false,
+      "points": [
+        [
+          -112.11,
+          -147.12
+        ],
+        [
+          -145.4,
+          -147.88
+        ],
+        [
+          -178.86,
+          -152.37
+        ],
+        [
+          -199.17,
+          -155.08
+        ]
+      ]
+    },
+    {
+      "id": "way-841722579",
+      "highway": "service",
+      "category": "driveway",
+      "surface": "asphalt",
+      "width": 3,
+      "bridge": false,
+      "points": [
+        [
+          -249.4,
+          255.26
+        ],
+        [
+          -274.48,
+          241.37
+        ],
+        [
+          -285.19,
+          232.07
+        ],
+        [
+          -305.46,
+          215.38
+        ],
+        [
+          -317.71,
+          200.4
+        ],
+        [
+          -317.23,
+          195.89
+        ],
+        [
+          -311.33,
+          190.56
+        ],
+        [
+          -301.62,
+          183.96
+        ]
+      ]
+    },
+    {
+      "id": "way-954655919",
+      "highway": "service",
+      "category": "driveway",
+      "surface": "asphalt",
+      "width": 3,
+      "bridge": false,
+      "points": [
+        [
+          109.75,
+          -45.21
+        ],
+        [
+          110.4,
+          -38.58
+        ],
+        [
+          110.83,
+          -36.76
+        ],
+        [
+          111.66,
+          -35.11
+        ],
+        [
+          113.58,
+          -33.96
+        ],
+        [
+          115.75,
+          -33.54
+        ],
+        [
+          122.55,
+          -34.43
+        ]
+      ]
+    },
+    {
+      "id": "way-1181777697",
+      "name": "The Wychough",
+      "highway": "unclassified",
+      "category": "primary_lane",
+      "surface": "asphalt",
+      "width": 4.6,
+      "bridge": false,
+      "points": [
+        [
+          -286.62,
+          126.98
+        ],
+        [
+          -293.65,
+          125.15
+        ],
+        [
+          -300.94,
+          124.95
+        ],
+        [
+          -315.55,
+          124.25
+        ],
+        [
+          -328.51,
+          123.41
+        ]
+      ]
+    },
+    {
+      "id": "way-1181777698",
+      "name": "Lower Wych Bridge",
+      "highway": "unclassified",
+      "category": "primary_lane",
+      "surface": "asphalt",
+      "width": 4.6,
+      "bridge": true,
+      "points": [
+        [
+          -272.39,
+          136.93
+        ],
+        [
+          -286.62,
+          126.98
+        ]
+      ]
+    },
+    {
+      "id": "way-1481089974",
+      "name": "Wigland Hall Lane",
+      "highway": "unclassified",
+      "category": "country_lane",
+      "surface": "asphalt",
+      "width": 3.8,
+      "bridge": false,
+      "points": [
+        [
+          -124.44,
+          151.77
+        ],
+        [
+          -95.76,
+          152.73
+        ],
+        [
+          -86.41,
+          150.76
+        ],
+        [
+          -78.67,
+          147.09
+        ],
+        [
+          -68.42,
+          139.94
+        ]
+      ]
+    },
+    {
+      "id": "way-1481089975",
+      "name": "Wigland Hall Lane",
+      "highway": "unclassified",
+      "category": "country_lane",
+      "surface": "asphalt",
+      "width": 3.8,
+      "bridge": true,
+      "points": [
+        [
+          -134.71,
+          152.27
+        ],
+        [
+          -124.44,
+          151.77
+        ]
+      ]
+    },
+    {
+      "id": "way-1481089978",
+      "highway": "track",
+      "category": "track",
+      "surface": "gravel",
+      "width": 2.8,
+      "bridge": false,
+      "points": [
+        [
+          -149.64,
+          160.01
+        ],
+        [
+          -150.6,
+          156.82
+        ],
+        [
+          -151.1,
+          153.89
+        ]
+      ]
+    },
+    {
+      "id": "way-1481089979",
+      "highway": "footway",
+      "category": "footpath",
+      "surface": "grass_earth",
+      "width": 1.4,
+      "bridge": false,
+      "points": [
+        [
+          -149.64,
+          160.01
+        ],
+        [
+          -154.02,
+          158.26
+        ],
+        [
+          -155.12,
+          154.54
+        ]
+      ]
+    },
+    {
+      "id": "way-1481089980",
+      "highway": "track",
+      "category": "track",
+      "surface": "gravel",
+      "width": 2.8,
+      "bridge": false,
+      "points": [
+        [
+          47.41,
+          380.31
+        ],
+        [
+          31.11,
+          364.06
+        ],
+        [
+          16.89,
+          346.66
+        ],
+        [
+          -8.86,
+          312.62
+        ],
+        [
+          -69.15,
+          259.71
+        ],
+        [
+          -111.72,
+          215.97
+        ],
+        [
+          -135.15,
+          185.37
+        ],
+        [
+          -143.32,
+          174.28
+        ],
+        [
+          -149.64,
+          160.01
+        ]
+      ]
+    },
+    {
+      "id": "way-1481089981",
+      "highway": "footway",
+      "category": "footpath",
+      "surface": "grass_earth",
+      "width": 1.4,
+      "bridge": true,
+      "points": [
+        [
+          49.72,
+          383.18
+        ],
+        [
+          47.41,
+          380.31
+        ]
+      ]
+    },
+    {
+      "id": "way-1481089984",
+      "highway": "footway",
+      "category": "footpath",
+      "surface": "grass_earth",
+      "width": 1.4,
+      "bridge": false,
+      "points": [
+        [
+          125.92,
+          523.14
+        ],
+        [
+          112.83,
+          502.16
+        ],
+        [
+          102.73,
+          469.18
+        ],
+        [
+          94.19,
+          442.69
+        ],
+        [
+          64.57,
+          399.98
+        ],
+        [
+          49.72,
+          383.18
+        ]
+      ]
+    }
+  ],
+  "barriers": [
+    {
+      "id": "bridge-parapet-L-1181777698",
+      "type": "wall",
+      "height": 1.05,
+      "width": 0.45,
+      "points": [
+        [
+          -270.94,
+          134.86
+        ],
+        [
+          -285.17,
+          124.91
+        ]
+      ]
+    },
+    {
+      "id": "bridge-parapet-R-1181777698",
+      "type": "wall",
+      "height": 1.05,
+      "width": 0.45,
+      "points": [
+        [
+          -273.84,
+          139
+        ],
+        [
+          -288.07,
+          129.05
+        ]
+      ]
+    },
+    {
+      "id": "bridge-parapet-L-1481089975",
+      "type": "wall",
+      "height": 1.05,
+      "width": 0.45,
+      "points": [
+        [
+          -134.61,
+          154.36
+        ],
+        [
+          -124.34,
+          153.86
+        ]
+      ]
+    },
+    {
+      "id": "bridge-parapet-R-1481089975",
+      "type": "wall",
+      "height": 1.05,
+      "width": 0.45,
+      "points": [
+        [
+          -134.81,
+          150.18
+        ],
+        [
+          -124.54,
+          149.68
+        ]
+      ]
+    },
+    {
+      "id": "bridge-parapet-L-1481089981",
+      "type": "wall",
+      "height": 1.05,
+      "width": 0.45,
+      "points": [
+        [
+          50.32,
+          382.7
+        ],
+        [
+          48.01,
+          379.83
+        ]
+      ]
+    },
+    {
+      "id": "bridge-parapet-R-1481089981",
+      "type": "wall",
+      "height": 1.05,
+      "width": 0.45,
+      "points": [
+        [
+          49.12,
+          383.66
+        ],
+        [
+          46.81,
+          380.79
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-4438077-1-7-3",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -262.23,
+          141.26
+        ],
+        [
+          -266.06,
+          137.74
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-28197614--1-3-2",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -188.1,
+          159.13
+        ],
+        [
+          -183.1,
+          156.96
+        ],
+        [
+          -182.53,
+          156.77
+        ],
+        [
+          -177.45,
+          155.6
+        ],
+        [
+          -172.38,
+          154.43
+        ],
+        [
+          -167.3,
+          153.26
+        ],
+        [
+          -167.11,
+          153.23
+        ],
+        [
+          -161.39,
+          152.26
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-28197614--1-5-3",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -145.96,
+          150.07
+        ],
+        [
+          -140.5,
+          149.53
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-28197614-1-2-3",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -180.48,
+          163.02
+        ],
+        [
+          -181.05,
+          163.21
+        ],
+        [
+          -175.97,
+          162.04
+        ],
+        [
+          -170.9,
+          160.87
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-28197614-1-5-3",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -145.31,
+          156.63
+        ],
+        [
+          -139.85,
+          156.09
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-31031529--1-11-3",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -258.11,
+          261.78
+        ],
+        [
+          -255.3,
+          257.51
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-31031529-1-11-3",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -254.55,
+          269.82
+        ],
+        [
+          -254.73,
+          270.12
+        ],
+        [
+          -251.92,
+          265.84
+        ],
+        [
+          -249.11,
+          261.57
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-31031529-1-13-1",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -243.51,
+          253.01
+        ],
+        [
+          -240.71,
+          248.74
+        ],
+        [
+          -237.91,
+          244.47
+        ],
+        [
+          -237.71,
+          244.13
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-31031529-1-15-1",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -232.53,
+          234.04
+        ],
+        [
+          -232.24,
+          233.28
+        ],
+        [
+          -231.16,
+          229.12
+        ],
+        [
+          -230.08,
+          224.96
+        ],
+        [
+          -229,
+          220.8
+        ],
+        [
+          -228.9,
+          220.27
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-107045564--1-9-3",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          276.35,
+          19.74
+        ],
+        [
+          272.04,
+          16.19
+        ],
+        [
+          267.72,
+          12.64
+        ],
+        [
+          263.41,
+          9.1
+        ],
+        [
+          259.09,
+          5.55
+        ],
+        [
+          259.22,
+          5.65
+        ],
+        [
+          254.53,
+          2.15
+        ],
+        [
+          249.83,
+          -1.34
+        ],
+        [
+          245.14,
+          -4.83
+        ],
+        [
+          240.45,
+          -8.33
+        ],
+        [
+          235.76,
+          -11.82
+        ],
+        [
+          231.06,
+          -15.31
+        ],
+        [
+          226.37,
+          -18.81
+        ],
+        [
+          221.68,
+          -22.3
+        ],
+        [
+          216.99,
+          -25.79
+        ],
+        [
+          212.29,
+          -29.29
+        ],
+        [
+          207.6,
+          -32.78
+        ],
+        [
+          202.91,
+          -36.27
+        ],
+        [
+          202.95,
+          -36.24
+        ],
+        [
+          198.41,
+          -39.51
+        ],
+        [
+          193.86,
+          -42.78
+        ],
+        [
+          189.31,
+          -46.05
+        ],
+        [
+          190.01,
+          -45.67
+        ],
+        [
+          185.67,
+          -47.42
+        ],
+        [
+          181.32,
+          -49.16
+        ],
+        [
+          176.98,
+          -50.91
+        ],
+        [
+          172.64,
+          -52.66
+        ],
+        [
+          173.71,
+          -52.42
+        ],
+        [
+          168.95,
+          -52.65
+        ],
+        [
+          164.19,
+          -52.88
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-107045564--1-30-3",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          22.02,
+          41.13
+        ],
+        [
+          22.45,
+          47.06
+        ],
+        [
+          22.34,
+          48.19
+        ],
+        [
+          21.21,
+          52.22
+        ],
+        [
+          20.08,
+          56.24
+        ],
+        [
+          18.95,
+          60.27
+        ],
+        [
+          18.84,
+          60.6
+        ],
+        [
+          17.16,
+          64.82
+        ],
+        [
+          15.48,
+          69.05
+        ],
+        [
+          13.8,
+          73.27
+        ],
+        [
+          13.43,
+          73.94
+        ],
+        [
+          10.99,
+          77.43
+        ],
+        [
+          8.55,
+          80.92
+        ],
+        [
+          6.11,
+          84.4
+        ],
+        [
+          5.22,
+          85.27
+        ],
+        [
+          1.29,
+          87.86
+        ],
+        [
+          -2.65,
+          90.45
+        ],
+        [
+          -6.59,
+          93.04
+        ],
+        [
+          -6.82,
+          93.17
+        ],
+        [
+          -12.02,
+          96.02
+        ],
+        [
+          -17.23,
+          98.87
+        ],
+        [
+          -22.44,
+          101.72
+        ],
+        [
+          -27.65,
+          104.57
+        ],
+        [
+          -32.85,
+          107.42
+        ],
+        [
+          -38.06,
+          110.27
+        ],
+        [
+          -43.27,
+          113.12
+        ],
+        [
+          -48.48,
+          115.97
+        ],
+        [
+          -47.7,
+          115.39
+        ],
+        [
+          -51.4,
+          119.17
+        ],
+        [
+          -55.09,
+          122.96
+        ],
+        [
+          -58.79,
+          126.75
+        ],
+        [
+          -58.16,
+          125.84
+        ],
+        [
+          -60.59,
+          131.01
+        ],
+        [
+          -63.01,
+          136.17
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-107045564-1-10-1",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          284.33,
+          17.84
+        ],
+        [
+          284.86,
+          18.19
+        ],
+        [
+          280.54,
+          14.64
+        ],
+        [
+          276.23,
+          11.1
+        ],
+        [
+          271.91,
+          7.55
+        ],
+        [
+          267.6,
+          4
+        ],
+        [
+          263.29,
+          0.45
+        ],
+        [
+          263.16,
+          0.35
+        ],
+        [
+          258.47,
+          -3.14
+        ],
+        [
+          253.78,
+          -6.63
+        ],
+        [
+          249.08,
+          -10.13
+        ],
+        [
+          244.39,
+          -13.62
+        ],
+        [
+          239.7,
+          -17.11
+        ],
+        [
+          235.01,
+          -20.61
+        ],
+        [
+          230.31,
+          -24.1
+        ],
+        [
+          225.62,
+          -27.59
+        ],
+        [
+          220.93,
+          -31.09
+        ],
+        [
+          216.24,
+          -34.58
+        ],
+        [
+          211.54,
+          -38.07
+        ],
+        [
+          206.85,
+          -41.57
+        ],
+        [
+          206.81,
+          -41.6
+        ],
+        [
+          202.26,
+          -44.87
+        ],
+        [
+          197.71,
+          -48.14
+        ],
+        [
+          193.17,
+          -51.41
+        ],
+        [
+          192.47,
+          -51.79
+        ],
+        [
+          188.13,
+          -53.54
+        ],
+        [
+          183.79,
+          -55.29
+        ],
+        [
+          179.44,
+          -57.03
+        ],
+        [
+          175.1,
+          -58.78
+        ],
+        [
+          174.03,
+          -59.02
+        ],
+        [
+          169.27,
+          -59.25
+        ],
+        [
+          164.51,
+          -59.48
+        ],
+        [
+          159.75,
+          -59.71
+        ],
+        [
+          159.23,
+          -59.69
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-107045564-1-11-7",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          123.9,
+          -52.49
+        ],
+        [
+          118.9,
+          -51.13
+        ],
+        [
+          113.89,
+          -49.76
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-107045564-1-30-3",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          15.43,
+          41.61
+        ],
+        [
+          15.87,
+          47.54
+        ],
+        [
+          15.98,
+          46.41
+        ],
+        [
+          14.85,
+          50.44
+        ],
+        [
+          13.72,
+          54.46
+        ],
+        [
+          12.59,
+          58.49
+        ],
+        [
+          12.7,
+          58.16
+        ],
+        [
+          11.02,
+          62.38
+        ],
+        [
+          9.34,
+          66.61
+        ],
+        [
+          7.66,
+          70.83
+        ],
+        [
+          8.03,
+          70.16
+        ],
+        [
+          5.59,
+          73.64
+        ],
+        [
+          3.15,
+          77.13
+        ],
+        [
+          0.71,
+          80.62
+        ],
+        [
+          1.6,
+          79.75
+        ],
+        [
+          -2.34,
+          82.34
+        ],
+        [
+          -6.28,
+          84.93
+        ],
+        [
+          -10.21,
+          87.52
+        ],
+        [
+          -9.98,
+          87.39
+        ],
+        [
+          -15.19,
+          90.24
+        ],
+        [
+          -20.4,
+          93.09
+        ],
+        [
+          -25.61,
+          95.94
+        ],
+        [
+          -30.81,
+          98.79
+        ],
+        [
+          -36.02,
+          101.64
+        ],
+        [
+          -41.23,
+          104.49
+        ],
+        [
+          -46.44,
+          107.34
+        ],
+        [
+          -51.64,
+          110.19
+        ],
+        [
+          -52.42,
+          110.77
+        ],
+        [
+          -56.12,
+          114.56
+        ],
+        [
+          -59.81,
+          118.35
+        ],
+        [
+          -63.51,
+          122.13
+        ],
+        [
+          -64.14,
+          123.04
+        ],
+        [
+          -66.56,
+          128.21
+        ],
+        [
+          -68.98,
+          133.37
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-329738849--1-28-2",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -294.42,
+          -15.56
+        ],
+        [
+          -292.06,
+          -17.67
+        ],
+        [
+          -288.93,
+          -20.27
+        ],
+        [
+          -289.46,
+          -19.72
+        ],
+        [
+          -286.95,
+          -22.91
+        ],
+        [
+          -284.43,
+          -26.09
+        ],
+        [
+          -284.7,
+          -25.72
+        ],
+        [
+          -282.05,
+          -30.1
+        ],
+        [
+          -279.4,
+          -34.48
+        ],
+        [
+          -276.75,
+          -38.86
+        ],
+        [
+          -276.94,
+          -38.49
+        ],
+        [
+          -274.49,
+          -43.79
+        ],
+        [
+          -272.04,
+          -49.08
+        ],
+        [
+          -269.59,
+          -54.38
+        ],
+        [
+          -267.14,
+          -59.67
+        ],
+        [
+          -267.06,
+          -59.83
+        ],
+        [
+          -264.52,
+          -64.69
+        ],
+        [
+          -261.99,
+          -69.56
+        ],
+        [
+          -259.45,
+          -74.42
+        ],
+        [
+          -256.91,
+          -79.28
+        ],
+        [
+          -256.57,
+          -79.82
+        ],
+        [
+          -253.4,
+          -83.97
+        ],
+        [
+          -250.22,
+          -88.12
+        ],
+        [
+          -247.05,
+          -92.28
+        ],
+        [
+          -246.88,
+          -92.49
+        ],
+        [
+          -243.52,
+          -96.27
+        ],
+        [
+          -240.16,
+          -100.05
+        ],
+        [
+          -236.81,
+          -103.84
+        ],
+        [
+          -236.5,
+          -104.14
+        ],
+        [
+          -232.45,
+          -107.76
+        ],
+        [
+          -228.4,
+          -111.38
+        ],
+        [
+          -224.35,
+          -115
+        ],
+        [
+          -220.29,
+          -118.62
+        ],
+        [
+          -220.83,
+          -118.03
+        ],
+        [
+          -217.66,
+          -122.41
+        ],
+        [
+          -214.49,
+          -126.8
+        ],
+        [
+          -211.32,
+          -131.19
+        ],
+        [
+          -211.62,
+          -130.69
+        ],
+        [
+          -209.38,
+          -135.13
+        ],
+        [
+          -207.13,
+          -139.58
+        ],
+        [
+          -207.31,
+          -139.16
+        ],
+        [
+          -205.67,
+          -143.74
+        ],
+        [
+          -204.02,
+          -148.31
+        ],
+        [
+          -204.19,
+          -147.68
+        ],
+        [
+          -203.5,
+          -151.69
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-329738849--1-30-7",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -201.83,
+          -161.58
+        ],
+        [
+          -201.88,
+          -160.84
+        ],
+        [
+          -202.07,
+          -166.41
+        ],
+        [
+          -202.26,
+          -171.98
+        ],
+        [
+          -202.46,
+          -177.55
+        ],
+        [
+          -202.65,
+          -183.12
+        ],
+        [
+          -202.84,
+          -188.69
+        ],
+        [
+          -203.03,
+          -194.26
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-329738849--1-end",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -203.39,
+          -204.78
+        ],
+        [
+          -203.56,
+          -209.72
+        ],
+        [
+          -203.55,
+          -209.62
+        ],
+        [
+          -203.91,
+          -215.59
+        ],
+        [
+          -204.27,
+          -221.57
+        ],
+        [
+          -204.63,
+          -227.54
+        ],
+        [
+          -204.99,
+          -233.51
+        ],
+        [
+          -205.35,
+          -239.49
+        ],
+        [
+          -205.71,
+          -245.46
+        ],
+        [
+          -206.06,
+          -251.43
+        ],
+        [
+          -206.42,
+          -257.41
+        ],
+        [
+          -206.42,
+          -257.34
+        ],
+        [
+          -206.83,
+          -262.71
+        ],
+        [
+          -207.25,
+          -268.08
+        ],
+        [
+          -207.67,
+          -273.45
+        ],
+        [
+          -208.08,
+          -278.82
+        ],
+        [
+          -208.5,
+          -284.19
+        ],
+        [
+          -208.47,
+          -283.95
+        ],
+        [
+          -209.26,
+          -289.42
+        ],
+        [
+          -210.04,
+          -294.89
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-329738849-1-28-1",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -291.22,
+          -8.88
+        ],
+        [
+          -290.45,
+          -9.38
+        ],
+        [
+          -287.32,
+          -11.98
+        ],
+        [
+          -284.19,
+          -14.59
+        ],
+        [
+          -283.66,
+          -15.14
+        ],
+        [
+          -281.14,
+          -18.32
+        ],
+        [
+          -278.63,
+          -21.51
+        ],
+        [
+          -278.36,
+          -21.88
+        ],
+        [
+          -275.71,
+          -26.26
+        ],
+        [
+          -273.06,
+          -30.64
+        ],
+        [
+          -270.41,
+          -35.02
+        ],
+        [
+          -270.22,
+          -35.39
+        ],
+        [
+          -267.77,
+          -40.68
+        ],
+        [
+          -265.32,
+          -45.98
+        ],
+        [
+          -262.87,
+          -51.27
+        ],
+        [
+          -260.42,
+          -56.57
+        ],
+        [
+          -260.5,
+          -56.41
+        ],
+        [
+          -257.96,
+          -61.27
+        ],
+        [
+          -255.42,
+          -66.13
+        ],
+        [
+          -252.89,
+          -71
+        ],
+        [
+          -250.35,
+          -75.86
+        ],
+        [
+          -250.69,
+          -75.32
+        ],
+        [
+          -247.52,
+          -79.48
+        ],
+        [
+          -244.34,
+          -83.63
+        ],
+        [
+          -241.17,
+          -87.78
+        ],
+        [
+          -241.34,
+          -87.57
+        ],
+        [
+          -237.99,
+          -91.36
+        ],
+        [
+          -234.63,
+          -95.14
+        ],
+        [
+          -231.27,
+          -98.92
+        ],
+        [
+          -231.58,
+          -98.62
+        ],
+        [
+          -227.52,
+          -102.24
+        ],
+        [
+          -223.47,
+          -105.86
+        ],
+        [
+          -219.42,
+          -109.48
+        ],
+        [
+          -215.37,
+          -113.1
+        ],
+        [
+          -214.83,
+          -113.69
+        ],
+        [
+          -211.66,
+          -118.08
+        ],
+        [
+          -208.49,
+          -122.47
+        ],
+        [
+          -205.32,
+          -126.85
+        ],
+        [
+          -205.02,
+          -127.35
+        ],
+        [
+          -202.77,
+          -131.8
+        ],
+        [
+          -200.53,
+          -136.24
+        ],
+        [
+          -200.35,
+          -136.66
+        ],
+        [
+          -198.7,
+          -141.23
+        ],
+        [
+          -197.06,
+          -145.81
+        ],
+        [
+          -196.89,
+          -146.44
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-329738849-1-30-7",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -194.53,
+          -160.36
+        ],
+        [
+          -194.48,
+          -161.1
+        ],
+        [
+          -194.68,
+          -166.67
+        ],
+        [
+          -194.87,
+          -172.24
+        ],
+        [
+          -195.06,
+          -177.81
+        ],
+        [
+          -195.25,
+          -183.38
+        ],
+        [
+          -195.45,
+          -188.95
+        ],
+        [
+          -195.64,
+          -194.52
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-329738849-1-end",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -196,
+          -205.02
+        ],
+        [
+          -196.16,
+          -209.96
+        ],
+        [
+          -196.17,
+          -210.06
+        ],
+        [
+          -196.53,
+          -216.04
+        ],
+        [
+          -196.88,
+          -222.01
+        ],
+        [
+          -197.24,
+          -227.98
+        ],
+        [
+          -197.6,
+          -233.96
+        ],
+        [
+          -197.96,
+          -239.93
+        ],
+        [
+          -198.32,
+          -245.9
+        ],
+        [
+          -198.68,
+          -251.88
+        ],
+        [
+          -199.04,
+          -257.85
+        ],
+        [
+          -199.04,
+          -257.92
+        ],
+        [
+          -199.46,
+          -263.29
+        ],
+        [
+          -199.87,
+          -268.66
+        ],
+        [
+          -200.29,
+          -274.03
+        ],
+        [
+          -200.71,
+          -279.4
+        ],
+        [
+          -201.12,
+          -284.77
+        ],
+        [
+          -201.15,
+          -285.01
+        ],
+        [
+          -201.93,
+          -290.47
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-1181777697--1-end",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -294.58,
+          128.73
+        ],
+        [
+          -293.75,
+          128.85
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-1181777697-1-end",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -292.72,
+          121.57
+        ],
+        [
+          -293.55,
+          121.45
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-1481089974--1-3-3",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -118.59,
+          148.66
+        ],
+        [
+          -112.86,
+          148.86
+        ],
+        [
+          -107.12,
+          149.05
+        ],
+        [
+          -101.39,
+          149.24
+        ],
+        [
+          -95.65,
+          149.43
+        ],
+        [
+          -96.44,
+          149.5
+        ],
+        [
+          -91.77,
+          148.52
+        ],
+        [
+          -87.09,
+          147.53
+        ],
+        [
+          -87.82,
+          147.78
+        ],
+        [
+          -83.95,
+          145.94
+        ],
+        [
+          -80.08,
+          144.11
+        ],
+        [
+          -80.56,
+          144.38
+        ],
+        [
+          -77.14,
+          142
+        ],
+        [
+          -73.72,
+          139.62
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-1481089974-1-3-1",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -118.81,
+          155.26
+        ],
+        [
+          -113.08,
+          155.45
+        ],
+        [
+          -107.34,
+          155.64
+        ],
+        [
+          -101.61,
+          155.84
+        ],
+        [
+          -95.87,
+          156.03
+        ],
+        [
+          -95.08,
+          155.96
+        ],
+        [
+          -90.4,
+          154.97
+        ],
+        [
+          -85.73,
+          153.99
+        ],
+        [
+          -85,
+          153.74
+        ],
+        [
+          -81.13,
+          151.91
+        ],
+        [
+          -77.26,
+          150.07
+        ],
+        [
+          -76.78,
+          149.8
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-1481089980--1-6-1",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -36.55,
+          292.05
+        ],
+        [
+          -40.85,
+          288.27
+        ],
+        [
+          -45.16,
+          284.49
+        ],
+        [
+          -49.46,
+          280.71
+        ],
+        [
+          -53.77,
+          276.93
+        ],
+        [
+          -58.08,
+          273.15
+        ],
+        [
+          -62.38,
+          269.37
+        ],
+        [
+          -66.69,
+          265.59
+        ],
+        [
+          -71,
+          261.81
+        ],
+        [
+          -71.16,
+          261.66
+        ],
+        [
+          -75.03,
+          257.69
+        ],
+        [
+          -78.9,
+          253.71
+        ],
+        [
+          -82.77,
+          249.73
+        ],
+        [
+          -86.64,
+          245.76
+        ],
+        [
+          -90.51,
+          241.78
+        ],
+        [
+          -94.38,
+          237.8
+        ],
+        [
+          -98.25,
+          233.83
+        ],
+        [
+          -102.12,
+          229.85
+        ],
+        [
+          -105.99,
+          225.88
+        ],
+        [
+          -109.86,
+          221.9
+        ],
+        [
+          -113.73,
+          217.92
+        ],
+        [
+          -113.94,
+          217.67
+        ],
+        [
+          -117.29,
+          213.3
+        ],
+        [
+          -120.64,
+          208.93
+        ],
+        [
+          -123.98,
+          204.56
+        ],
+        [
+          -127.33,
+          200.19
+        ],
+        [
+          -130.68,
+          195.82
+        ],
+        [
+          -134.03,
+          191.44
+        ],
+        [
+          -137.37,
+          187.07
+        ],
+        [
+          -137.4,
+          187.03
+        ]
+      ]
+    },
+    {
+      "id": "hedge-way-1481089980-1-7-3",
+      "type": "hedge",
+      "height": 1.18,
+      "width": 1.25,
+      "points": [
+        [
+          -28.55,
+          291.62
+        ],
+        [
+          -32.85,
+          287.84
+        ],
+        [
+          -37.16,
+          284.06
+        ],
+        [
+          -41.46,
+          280.28
+        ],
+        [
+          -45.77,
+          276.5
+        ],
+        [
+          -50.08,
+          272.72
+        ],
+        [
+          -54.38,
+          268.94
+        ],
+        [
+          -58.69,
+          265.16
+        ],
+        [
+          -63,
+          261.38
+        ],
+        [
+          -67.3,
+          257.61
+        ],
+        [
+          -67.14,
+          257.76
+        ],
+        [
+          -71.01,
+          253.78
+        ],
+        [
+          -74.88,
+          249.8
+        ],
+        [
+          -78.75,
+          245.83
+        ],
+        [
+          -82.62,
+          241.85
+        ],
+        [
+          -86.49,
+          237.88
+        ],
+        [
+          -90.36,
+          233.9
+        ],
+        [
+          -94.23,
+          229.92
+        ],
+        [
+          -98.1,
+          225.95
+        ],
+        [
+          -101.97,
+          221.97
+        ],
+        [
+          -105.84,
+          217.99
+        ],
+        [
+          -109.71,
+          214.02
+        ],
+        [
+          -109.5,
+          214.27
+        ],
+        [
+          -112.84,
+          209.9
+        ],
+        [
+          -116.19,
+          205.52
+        ],
+        [
+          -119.54,
+          201.15
+        ],
+        [
+          -122.89,
+          196.78
+        ],
+        [
+          -126.23,
+          192.41
+        ],
+        [
+          -129.58,
+          188.04
+        ],
+        [
+          -132.93,
+          183.67
+        ],
+        [
+          -132.9,
+          183.71
+        ],
+        [
+          -135.62,
+          180.01
+        ],
+        [
+          -138.34,
+          176.32
+        ],
+        [
+          -141.07,
+          172.62
+        ],
+        [
+          -140.76,
+          173.15
+        ],
+        [
+          -142.87,
+          168.39
+        ],
+        [
+          -144.97,
+          163.63
+        ]
+      ]
+    },
+    {
+      "id": "wall-hill-farm-entrance-north",
+      "type": "wall",
+      "height": 1.65,
+      "width": 0.4,
+      "points": [
+        [
+          -188,
+          -157.5
+        ],
+        [
+          -153,
+          -153.5
+        ]
+      ]
+    },
+    {
+      "id": "wall-brook-side-roadside",
+      "type": "wall",
+      "height": 0.78,
+      "width": 0.38,
+      "points": [
+        [
+          45,
+          -38.8
+        ],
+        [
+          57.2,
+          -39.8
+        ],
+        [
+          68,
+          -39.5
+        ]
+      ]
+    },
+    {
+      "id": "field-hedge-0",
+      "type": "hedge",
+      "height": 1.45,
+      "width": 1.35,
+      "points": [
+        [
+          -110,
+          -280
+        ],
+        [
+          -95,
+          -200
+        ]
+      ]
+    },
+    {
+      "id": "field-hedge-1",
+      "type": "hedge",
+      "height": 1.45,
+      "width": 1.35,
+      "points": [
+        [
+          20,
+          -280
+        ],
+        [
+          18,
+          -110
+        ],
+        [
+          15,
+          -45
+        ]
+      ]
+    },
+    {
+      "id": "field-hedge-2",
+      "type": "hedge",
+      "height": 1.45,
+      "width": 1.35,
+      "points": [
+        [
+          145,
+          -260
+        ],
+        [
+          120,
+          -95
+        ],
+        [
+          108,
+          -58
+        ]
+      ]
+    },
+    {
+      "id": "field-hedge-3",
+      "type": "hedge",
+      "height": 1.45,
+      "width": 1.35,
+      "points": [
+        [
+          -85,
+          165
+        ],
+        [
+          -45,
+          225
+        ],
+        [
+          -10,
+          285
+        ]
+      ]
+    },
+    {
+      "id": "field-hedge-4",
+      "type": "hedge",
+      "height": 1.45,
+      "width": 1.35,
+      "points": [
+        [
+          45,
+          55
+        ],
+        [
+          85,
+          165
+        ],
+        [
+          125,
+          280
+        ]
+      ]
+    },
+    {
+      "id": "field-hedge-5",
+      "type": "hedge",
+      "height": 1.45,
+      "width": 1.35,
+      "points": [
+        [
+          155,
+          -10
+        ],
+        [
+          195,
+          110
+        ],
+        [
+          245,
+          260
+        ]
+      ]
+    }
+  ],
+  "water": [
+    {
+      "id": "water-823918535",
+      "name": "Wych Brook",
+      "type": "stream",
+      "isPolygon": false,
+      "width": 4.8,
+      "points": [
+        [
+          231.9,
+          538.51
+        ],
+        [
+          218.09,
+          535.9
+        ],
+        [
+          198.5,
+          539.31
+        ],
+        [
+          189.4,
+          533.99
+        ],
+        [
+          166.19,
+          511.51
+        ],
+        [
+          155,
+          498.39
+        ],
+        [
+          139.69,
+          494.49
+        ],
+        [
+          137.8,
+          486.1
+        ],
+        [
+          149.2,
+          463.5
+        ],
+        [
+          149.89,
+          454.09
+        ],
+        [
+          146.4,
+          450.6
+        ],
+        [
+          140.6,
+          450.1
+        ],
+        [
+          125.9,
+          458.1
+        ],
+        [
+          117.4,
+          456.5
+        ],
+        [
+          117.4,
+          450.8
+        ],
+        [
+          126.5,
+          436.5
+        ],
+        [
+          127,
+          429.31
+        ],
+        [
+          120.29,
+          421.89
+        ],
+        [
+          114.6,
+          409.2
+        ],
+        [
+          109.79,
+          404.2
+        ],
+        [
+          92.99,
+          404.2
+        ],
+        [
+          81.88,
+          403.53
+        ],
+        [
+          77.58,
+          398.56
+        ],
+        [
+          72.2,
+          381
+        ],
+        [
+          61,
+          374.1
+        ],
+        [
+          56.49,
+          369
+        ],
+        [
+          57.2,
+          344.4
+        ],
+        [
+          51,
+          343.5
+        ],
+        [
+          45.7,
+          354.7
+        ],
+        [
+          38.49,
+          359.71
+        ],
+        [
+          34.5,
+          356
+        ],
+        [
+          30.9,
+          350.39
+        ],
+        [
+          31.6,
+          335.3
+        ],
+        [
+          34.69,
+          329.61
+        ],
+        [
+          39.1,
+          320.8
+        ],
+        [
+          40,
+          315
+        ],
+        [
+          37.59,
+          311.7
+        ],
+        [
+          26.1,
+          311.7
+        ],
+        [
+          18.19,
+          308.71
+        ],
+        [
+          10.6,
+          298
+        ],
+        [
+          5.79,
+          284.2
+        ],
+        [
+          6.7,
+          274.9
+        ],
+        [
+          14.9,
+          268.21
+        ],
+        [
+          17.3,
+          264.81
+        ],
+        [
+          16.5,
+          256.91
+        ],
+        [
+          -3.1,
+          246.9
+        ],
+        [
+          -15.5,
+          243.1
+        ],
+        [
+          -21.5,
+          238.3
+        ],
+        [
+          -19.6,
+          230.4
+        ],
+        [
+          -23.4,
+          222.31
+        ],
+        [
+          -30.1,
+          219.2
+        ],
+        [
+          -34.9,
+          223.21
+        ],
+        [
+          -39.2,
+          229.4
+        ],
+        [
+          -52.8,
+          232.11
+        ],
+        [
+          -61.6,
+          229.4
+        ],
+        [
+          -64,
+          224.6
+        ],
+        [
+          -61.6,
+          196.4
+        ],
+        [
+          -63.71,
+          190.6
+        ],
+        [
+          -69.5,
+          191.51
+        ],
+        [
+          -85.3,
+          199.51
+        ],
+        [
+          -89.7,
+          201.51
+        ],
+        [
+          -94.4,
+          203.6
+        ],
+        [
+          -101.8,
+          201.5
+        ],
+        [
+          -111.4,
+          195.2
+        ],
+        [
+          -120.2,
+          189.7
+        ],
+        [
+          -128.6,
+          172.1
+        ],
+        [
+          -130.71,
+          156
+        ],
+        [
+          -132.81,
+          144.09
+        ]
+      ]
+    },
+    {
+      "id": "water-1181777694",
+      "name": "Wych Brook",
+      "type": "stream",
+      "isPolygon": false,
+      "width": 4.8,
+      "points": [
+        [
+          -132.81,
+          144.09
+        ],
+        [
+          -135.4,
+          139.09
+        ],
+        [
+          -140.1,
+          133
+        ],
+        [
+          -146.3,
+          129.7
+        ],
+        [
+          -153.71,
+          129.5
+        ],
+        [
+          -161,
+          132.8
+        ],
+        [
+          -183.8,
+          153.11
+        ],
+        [
+          -197.2,
+          161.11
+        ],
+        [
+          -210.3,
+          164
+        ],
+        [
+          -217.9,
+          162.5
+        ],
+        [
+          -227.1,
+          155.1
+        ],
+        [
+          -234.71,
+          139.3
+        ],
+        [
+          -238,
+          115.8
+        ],
+        [
+          -241.3,
+          108.1
+        ],
+        [
+          -255.81,
+          108
+        ],
+        [
+          -265.7,
+          112.5
+        ],
+        [
+          -273,
+          125.5
+        ],
+        [
+          -284.2,
+          139.5
+        ],
+        [
+          -300.31,
+          163.21
+        ]
+      ]
+    },
+    {
+      "id": "water-1181777696",
+      "name": "Wych Brook",
+      "type": "stream",
+      "isPolygon": false,
+      "width": 4.8,
+      "points": [
+        [
+          -300.31,
+          163.21
+        ],
+        [
+          -325.4,
+          187.4
+        ]
+      ]
+    },
+    {
+      "id": "water-1181777699",
+      "name": "Wych Brook",
+      "type": "stream",
+      "isPolygon": false,
+      "width": 4.8,
+      "points": [
+        [
+          -325.4,
+          187.4
+        ],
+        [
+          -347.1,
+          204.8
+        ],
+        [
+          -357.4,
+          200.9
+        ],
+        [
+          -368.5,
+          200.4
+        ],
+        [
+          -386.8,
+          205.8
+        ],
+        [
+          -394.8,
+          212.7
+        ],
+        [
+          -397.7,
+          224.51
+        ],
+        [
+          -393.9,
+          233.8
+        ],
+        [
+          -392.8,
+          239.2
+        ],
+        [
+          -395.7,
+          243.2
+        ],
+        [
+          -406.4,
+          245.7
+        ],
+        [
+          -409.5,
+          249.2
+        ],
+        [
+          -407.1,
+          275.11
+        ],
+        [
+          -409.8,
+          278.9
+        ],
+        [
+          -414.71,
+          279.6
+        ],
+        [
+          -441.2,
+          274.2
+        ],
+        [
+          -449.01,
+          256.81
+        ],
+        [
+          -451.3,
+          242.6
+        ],
+        [
+          -461.5,
+          235.2
+        ],
+        [
+          -461.1,
+          224
+        ],
+        [
+          -459,
+          214.59
+        ],
+        [
+          -458.81,
+          199
+        ],
+        [
+          -466.3,
+          194.3
+        ],
+        [
+          -485.4,
+          189.61
+        ],
+        [
+          -494.61,
+          185.81
+        ],
+        [
+          -502.4,
+          184.9
+        ],
+        [
+          -503.4,
+          185.41
+        ],
+        [
+          -511.7,
+          189.9
+        ],
+        [
+          -516.1,
+          200.4
+        ],
+        [
+          -523.1,
+          209.6
+        ],
+        [
+          -533.4,
+          209.4
+        ],
+        [
+          -542.7,
+          201.1
+        ],
+        [
+          -546.01,
+          196
+        ],
+        [
+          -555.9,
+          192.8
+        ],
+        [
+          -558.3,
+          178.3
+        ],
+        [
+          -557.6,
+          169
+        ],
+        [
+          -549.7,
+          163.71
+        ],
+        [
+          -549.7,
+          158.3
+        ],
+        [
+          -555.5,
+          152.11
+        ]
+      ]
+    },
+    {
+      "id": "water-1182675668",
+      "name": "Stream",
+      "type": "stream",
+      "isPolygon": false,
+      "width": 2.4,
+      "points": [
+        [
+          367.12,
+          -569.29
+        ],
+        [
+          334.46,
+          -550.97
+        ],
+        [
+          323.39,
+          -550.26
+        ],
+        [
+          310.41,
+          -544.83
+        ],
+        [
+          305.28,
+          -538.6
+        ],
+        [
+          304.25,
+          -520.04
+        ],
+        [
+          302.09,
+          -511.3
+        ],
+        [
+          292.73,
+          -505.82
+        ],
+        [
+          264.82,
+          -506.53
+        ],
+        [
+          263.36,
+          -485.61
+        ],
+        [
+          242.55,
+          -454.37
+        ],
+        [
+          243.74,
+          -439.71
+        ],
+        [
+          250.24,
+          -418.8
+        ],
+        [
+          243.82,
+          -408.46
+        ],
+        [
+          241.34,
+          -398.58
+        ],
+        [
+          231.17,
+          -395.39
+        ],
+        [
+          221.32,
+          -392.71
+        ],
+        [
+          214.41,
+          -384.43
+        ],
+        [
+          206.07,
+          -368.32
+        ],
+        [
+          171.89,
+          -353.32
+        ],
+        [
+          166.75,
+          -345.84
+        ],
+        [
+          169,
+          -334.88
+        ],
+        [
+          168.82,
+          -327.78
+        ],
+        [
+          168.15,
+          -303.44
+        ],
+        [
+          164.77,
+          -296.66
+        ],
+        [
+          165.18,
+          -286.13
+        ],
+        [
+          177.5,
+          -268.47
+        ],
+        [
+          178.38,
+          -263.82
+        ],
+        [
+          170.74,
+          -255.34
+        ],
+        [
+          164.64,
+          -235.6
+        ],
+        [
+          150.92,
+          -219.34
+        ],
+        [
+          141.74,
+          -201.7
+        ],
+        [
+          127.89,
+          -192.15
+        ],
+        [
+          127.12,
+          -188.03
+        ],
+        [
+          129.03,
+          -182.75
+        ],
+        [
+          135.98,
+          -175.56
+        ],
+        [
+          136.04,
+          -171.64
+        ],
+        [
+          133.2,
+          -166.82
+        ],
+        [
+          126.34,
+          -163.39
+        ],
+        [
+          124.01,
+          -158.15
+        ],
+        [
+          112.05,
+          -152.09
+        ],
+        [
+          105.35,
+          -154.01
+        ],
+        [
+          100.88,
+          -152
+        ],
+        [
+          95.77,
+          -147.73
+        ],
+        [
+          94.42,
+          -137.42
+        ],
+        [
+          88.64,
+          -128.61
+        ],
+        [
+          85.11,
+          -107.71
+        ],
+        [
+          76.19,
+          -96.25
+        ],
+        [
+          75.2,
+          -90.28
+        ],
+        [
+          70.31,
+          -87.24
+        ],
+        [
+          58.71,
+          -86.12
+        ],
+        [
+          49.13,
+          -88.8
+        ],
+        [
+          37.28,
+          -92.74
+        ],
+        [
+          32,
+          -92.8
+        ],
+        [
+          14.84,
+          -83.08
+        ],
+        [
+          16.56,
+          -72.53
+        ],
+        [
+          -1.11,
+          -60.77
+        ],
+        [
+          -6.94,
+          -54.1
+        ],
+        [
+          -4.88,
+          -28.83
+        ],
+        [
+          -5.45,
+          -17.62
+        ],
+        [
+          -12.87,
+          3.05
+        ],
+        [
+          -13.65,
+          8.51
+        ],
+        [
+          -7.24,
+          15.95
+        ],
+        [
+          10.51,
+          30.24
+        ],
+        [
+          13.02,
+          40.05
+        ],
+        [
+          10.33,
+          56.36
+        ],
+        [
+          4.32,
+          71.48
+        ],
+        [
+          -8.66,
+          80.86
+        ],
+        [
+          -19.9,
+          88.19
+        ],
+        [
+          -45.95,
+          100.13
+        ],
+        [
+          -60.36,
+          109.22
+        ],
+        [
+          -79.45,
+          118.27
+        ],
+        [
+          -84.26,
+          121.27
+        ],
+        [
+          -94.83,
+          133.02
+        ],
+        [
+          -102.5,
+          135.18
+        ],
+        [
+          -132.81,
+          144.09
+        ]
+      ]
+    },
+    {
+      "id": "water-1182678502",
+      "name": "Stream",
+      "type": "stream",
+      "isPolygon": false,
+      "width": 2.4,
+      "points": [
+        [
+          446.05,
+          -129.71
+        ],
+        [
+          388.65,
+          -183.48
+        ],
+        [
+          367.35,
+          -212.09
+        ],
+        [
+          338.04,
+          -232.87
+        ],
+        [
+          308.16,
+          -267.3
+        ],
+        [
+          297.03,
+          -270.65
+        ],
+        [
+          215.25,
+          -334.02
+        ],
+        [
+          188.26,
+          -335.03
+        ],
+        [
+          168.82,
+          -327.78
+        ]
+      ]
+    },
+    {
+      "id": "water-1182690097",
+      "name": "Shothill Brook",
+      "type": "stream",
+      "isPolygon": false,
+      "width": 2.4,
+      "points": [
+        [
+          -455.9,
+          523.69
+        ],
+        [
+          -434.18,
+          504.12
+        ],
+        [
+          -431.95,
+          489.69
+        ],
+        [
+          -422.34,
+          479.9
+        ],
+        [
+          -391.23,
+          470.9
+        ],
+        [
+          -366.16,
+          459.56
+        ],
+        [
+          -339.07,
+          436.08
+        ],
+        [
+          -330.59,
+          429.79
+        ],
+        [
+          -318.74,
+          432.1
+        ],
+        [
+          -304.12,
+          430.76
+        ],
+        [
+          -283.11,
+          417.92
+        ],
+        [
+          -250.53,
+          408.73
+        ],
+        [
+          -244.34,
+          404.17
+        ],
+        [
+          -231.49,
+          402.14
+        ],
+        [
+          -162.4,
+          423.29
+        ],
+        [
+          -145.55,
+          435.18
+        ],
+        [
+          -132.44,
+          434.51
+        ],
+        [
+          -112.44,
+          452.41
+        ],
+        [
+          -75.11,
+          458.81
+        ],
+        [
+          -60.47,
+          442.07
+        ],
+        [
+          -42.46,
+          442.54
+        ],
+        [
+          -21.46,
+          434.59
+        ],
+        [
+          -13.82,
+          426.95
+        ],
+        [
+          12.49,
+          425.07
+        ],
+        [
+          28.4,
+          401.89
+        ],
+        [
+          43.08,
+          393.07
+        ],
+        [
+          46.61,
+          382.5
+        ],
+        [
+          49.18,
+          381.01
+        ],
+        [
+          61,
+          374.1
+        ]
+      ]
+    },
+    {
+      "id": "water-bishop-bennet-pond",
+      "name": "Field Pond (Bishop Bennet Way)",
+      "type": "pond",
+      "isPolygon": true,
+      "width": 20,
+      "points": [
+        [
+          10,
+          -232
+        ],
+        [
+          10.62,
+          -228.37
+        ],
+        [
+          7.39,
+          -225.99
+        ],
+        [
+          2.33,
+          -225.06
+        ],
+        [
+          -2,
+          -224.9
+        ],
+        [
+          -6.33,
+          -225.06
+        ],
+        [
+          -11.39,
+          -225.99
+        ],
+        [
+          -14.62,
+          -228.37
+        ],
+        [
+          -14,
+          -232
+        ],
+        [
+          -11.55,
+          -235.63
+        ],
+        [
+          -9.59,
+          -238.01
+        ],
+        [
+          -6.86,
+          -238.94
+        ],
+        [
+          -2,
+          -239.1
+        ],
+        [
+          2.86,
+          -238.94
+        ],
+        [
+          5.59,
+          -238.01
+        ],
+        [
+          7.55,
+          -235.63
+        ]
+      ]
+    }
+  ],
+  "landuse": [
+    {
+      "id": "landuse-141812066",
+      "type": "woodland",
+      "name": "Valley Woodland",
+      "polygon": [
+        [
+          -8.33,
+          -57.74
+        ],
+        [
+          26.72,
+          -102.62
+        ],
+        [
+          62.34,
+          -100.02
+        ],
+        [
+          112.08,
+          -104.52
+        ],
+        [
+          148.89,
+          -146.58
+        ],
+        [
+          151.96,
+          -164.51
+        ],
+        [
+          164,
+          -212.52
+        ],
+        [
+          151.29,
+          -237.07
+        ],
+        [
+          165.35,
+          -272.13
+        ],
+        [
+          157.31,
+          -328.96
+        ],
+        [
+          153.28,
+          -356.31
+        ],
+        [
+          201.08,
+          -381.65
+        ],
+        [
+          236.65,
+          -408.58
+        ],
+        [
+          244.83,
+          -432.91
+        ],
+        [
+          228.55,
+          -459.66
+        ],
+        [
+          265.88,
+          -516.73
+        ],
+        [
+          297.88,
+          -545.85
+        ],
+        [
+          316.53,
+          -539.19
+        ],
+        [
+          317.61,
+          -505.41
+        ],
+        [
+          297.36,
+          -497
+        ],
+        [
+          301.89,
+          -448.83
+        ],
+        [
+          361.83,
+          -465.44
+        ],
+        [
+          356.03,
+          -427.35
+        ],
+        [
+          307.45,
+          -430.09
+        ],
+        [
+          302.5,
+          -404.21
+        ],
+        [
+          264.21,
+          -358.71
+        ],
+        [
+          280.49,
+          -332.68
+        ],
+        [
+          362.76,
+          -247.69
+        ],
+        [
+          403.06,
+          -244.39
+        ],
+        [
+          416.28,
+          -234.99
+        ],
+        [
+          394.52,
+          -220.13
+        ],
+        [
+          430.73,
+          -170.9
+        ],
+        [
+          503.37,
+          -93.97
+        ],
+        [
+          451.03,
+          -116.08
+        ],
+        [
+          438.06,
+          -114.78
+        ],
+        [
+          408.72,
+          -132.33
+        ],
+        [
+          365.95,
+          -173.73
+        ],
+        [
+          323.8,
+          -205.79
+        ],
+        [
+          295.31,
+          -236.27
+        ],
+        [
+          252.41,
+          -264.74
+        ],
+        [
+          228.39,
+          -308.81
+        ],
+        [
+          207.76,
+          -332.02
+        ],
+        [
+          194.04,
+          -329.29
+        ],
+        [
+          182.26,
+          -304.99
+        ],
+        [
+          190.7,
+          -285.51
+        ],
+        [
+          202.26,
+          -288.98
+        ],
+        [
+          217.06,
+          -258.65
+        ],
+        [
+          198.24,
+          -250.23
+        ],
+        [
+          197.97,
+          -224.36
+        ],
+        [
+          229.18,
+          -213.91
+        ],
+        [
+          229.82,
+          -172.3
+        ],
+        [
+          212.1,
+          -131.55
+        ],
+        [
+          199.87,
+          -132.39
+        ],
+        [
+          188.85,
+          -111.68
+        ],
+        [
+          198.06,
+          -97.21
+        ],
+        [
+          176.24,
+          -77.32
+        ],
+        [
+          100.46,
+          -61.61
+        ],
+        [
+          84.71,
+          -71.11
+        ],
+        [
+          58.88,
+          -79.3
+        ],
+        [
+          21.35,
+          -71.79
+        ],
+        [
+          10.34,
+          -52.51
+        ],
+        [
+          -8.33,
+          -57.74
+        ]
+      ]
+    },
+    {
+      "id": "landuse-141812562",
+      "type": "woodland",
+      "name": "Valley Woodland",
+      "polygon": [
+        [
+          -40.43,
+          116.5
+        ],
+        [
+          -33.55,
+          146.02
+        ],
+        [
+          29.97,
+          133.05
+        ],
+        [
+          21.85,
+          151.64
+        ],
+        [
+          36.17,
+          159.7
+        ],
+        [
+          76.94,
+          185.28
+        ],
+        [
+          100.41,
+          179.86
+        ],
+        [
+          115.64,
+          203.65
+        ],
+        [
+          105,
+          221.57
+        ],
+        [
+          105.97,
+          232.28
+        ],
+        [
+          132.32,
+          226.18
+        ],
+        [
+          156.45,
+          260.2
+        ],
+        [
+          194.36,
+          284.31
+        ],
+        [
+          175.49,
+          332.17
+        ],
+        [
+          194.01,
+          351.77
+        ],
+        [
+          233.91,
+          324.9
+        ],
+        [
+          247.14,
+          299.17
+        ],
+        [
+          266.45,
+          312.3
+        ],
+        [
+          272.71,
+          333.21
+        ],
+        [
+          286.57,
+          349.95
+        ],
+        [
+          309.93,
+          354.44
+        ],
+        [
+          341.84,
+          402.19
+        ],
+        [
+          373.49,
+          473.65
+        ],
+        [
+          397.77,
+          494.04
+        ],
+        [
+          417.93,
+          494.25
+        ],
+        [
+          417.6,
+          525.85
+        ],
+        [
+          393.01,
+          534.94
+        ],
+        [
+          344.13,
+          526.51
+        ],
+        [
+          301.9,
+          501.64
+        ],
+        [
+          263.51,
+          453.81
+        ],
+        [
+          215.62,
+          419.53
+        ],
+        [
+          164.84,
+          385.23
+        ],
+        [
+          128.59,
+          341.02
+        ],
+        [
+          92.58,
+          306.22
+        ],
+        [
+          76.65,
+          314.67
+        ],
+        [
+          70.32,
+          300.24
+        ],
+        [
+          76.7,
+          275.81
+        ],
+        [
+          57.51,
+          251.88
+        ],
+        [
+          42.97,
+          230.26
+        ],
+        [
+          8.64,
+          209.05
+        ],
+        [
+          -20.2,
+          177.78
+        ],
+        [
+          -44.82,
+          156.75
+        ],
+        [
+          -52.38,
+          122.9
+        ],
+        [
+          -40.43,
+          116.5
+        ]
+      ]
+    },
+    {
+      "id": "landuse-141815199",
+      "type": "woodland",
+      "name": "Valley Woodland",
+      "polygon": [
+        [
+          -535.2,
+          -354.34
+        ],
+        [
+          -542.63,
+          -332.87
+        ],
+        [
+          -520.91,
+          -276.61
+        ],
+        [
+          -502.01,
+          -250.18
+        ],
+        [
+          -494.95,
+          -236.46
+        ],
+        [
+          -449.48,
+          -222.68
+        ],
+        [
+          -404,
+          -166.15
+        ],
+        [
+          -392.2,
+          -125.07
+        ],
+        [
+          -400.73,
+          -68.42
+        ],
+        [
+          -417.73,
+          -27.66
+        ],
+        [
+          -430.44,
+          16.03
+        ],
+        [
+          -448.09,
+          50.33
+        ],
+        [
+          -469.34,
+          83.16
+        ],
+        [
+          -466.13,
+          120.54
+        ],
+        [
+          -471.77,
+          152.45
+        ],
+        [
+          -425.23,
+          177.38
+        ],
+        [
+          -372.73,
+          140.95
+        ],
+        [
+          -357.14,
+          141.47
+        ],
+        [
+          -342.11,
+          150.25
+        ],
+        [
+          -382.55,
+          193.64
+        ],
+        [
+          -377.65,
+          198.39
+        ],
+        [
+          -346.31,
+          196.92
+        ],
+        [
+          -316.01,
+          167.42
+        ],
+        [
+          -310.75,
+          172.16
+        ],
+        [
+          -308.75,
+          186.56
+        ],
+        [
+          -337.74,
+          204.56
+        ],
+        [
+          -368.36,
+          213.2
+        ],
+        [
+          -391.57,
+          220.87
+        ],
+        [
+          -387.43,
+          237.43
+        ],
+        [
+          -395.39,
+          249.54
+        ],
+        [
+          -393.49,
+          264.67
+        ],
+        [
+          -390.75,
+          278.35
+        ],
+        [
+          -383.28,
+          286.7
+        ],
+        [
+          -391.7,
+          299.54
+        ],
+        [
+          -401.37,
+          302.65
+        ],
+        [
+          -409.27,
+          292.16
+        ],
+        [
+          -425.74,
+          291.6
+        ],
+        [
+          -427.43,
+          307.05
+        ],
+        [
+          -421.45,
+          320.05
+        ],
+        [
+          -435.56,
+          326.37
+        ],
+        [
+          -444.41,
+          311.91
+        ],
+        [
+          -450.04,
+          300.34
+        ],
+        [
+          -445.52,
+          281
+        ],
+        [
+          -452.26,
+          271.94
+        ],
+        [
+          -453.09,
+          257.19
+        ],
+        [
+          -466.61,
+          241.6
+        ],
+        [
+          -469.48,
+          198.84
+        ],
+        [
+          -504.2,
+          187.67
+        ],
+        [
+          -512.78,
+          207.35
+        ],
+        [
+          -524.32,
+          216.19
+        ],
+        [
+          -556.63,
+          207.58
+        ],
+        [
+          -496.06,
+          -66.93
+        ],
+        [
+          -496.12,
+          -104.64
+        ],
+        [
+          -510.1,
+          -143.59
+        ],
+        [
+          -553.75,
+          -169.92
+        ]
+      ]
+    }
+  ],
+  "trees": [
+    {
+      "x": -282.5,
+      "z": 120.5,
+      "scale": 1.25,
+      "species": "alder"
+    },
+    {
+      "x": -270,
+      "z": 124,
+      "scale": 1.15,
+      "species": "willow"
+    },
+    {
+      "x": -291.5,
+      "z": 133.5,
+      "scale": 1.3,
+      "species": "oak"
+    },
+    {
+      "x": -296,
+      "z": 119,
+      "scale": 1.2,
+      "species": "ash"
+    },
+    {
+      "x": -183.5,
+      "z": -145.5,
+      "scale": 1.35,
+      "species": "oak"
+    },
+    {
+      "x": -75,
+      "z": -136,
+      "scale": 1.2,
+      "species": "ash"
+    },
+    {
+      "x": 67.5,
+      "z": -43.5,
+      "scale": 1.4,
+      "species": "alder"
+    },
+    {
+      "x": 70,
+      "z": -46,
+      "scale": 1.3,
+      "species": "oak"
+    },
+    {
+      "x": -12,
+      "z": -18,
+      "scale": 1.15,
+      "species": "ash"
+    },
+    {
+      "x": 41.67,
+      "z": -84.17,
+      "scale": 0.95,
+      "species": "alder"
+    },
+    {
+      "x": 152.7,
+      "z": -88.64,
+      "scale": 1.31,
+      "species": "ash"
+    },
+    {
+      "x": 210.15,
+      "z": -270.62,
+      "scale": 1.09,
+      "species": "alder"
+    },
+    {
+      "x": 150.84,
+      "z": -84.27,
+      "scale": 0.83,
+      "species": "ash"
+    },
+    {
+      "x": 29.6,
+      "z": -93.2,
+      "scale": 0.96,
+      "species": "alder"
+    },
+    {
+      "x": 184.74,
+      "z": -286.09,
+      "scale": 0.76,
+      "species": "alder"
+    },
+    {
+      "x": 221.28,
+      "z": -193.66,
+      "scale": 0.91,
+      "species": "alder"
+    },
+    {
+      "x": 155.71,
+      "z": -161.64,
+      "scale": 1.28,
+      "species": "ash"
+    },
+    {
+      "x": 58.45,
+      "z": -84.5,
+      "scale": 1.21,
+      "species": "oak"
+    },
+    {
+      "x": 177.05,
+      "z": -103.98,
+      "scale": 1.07,
+      "species": "oak"
+    },
+    {
+      "x": 185.17,
+      "z": -282.76,
+      "scale": 1.08,
+      "species": "ash"
+    },
+    {
+      "x": 197.11,
+      "z": -188.58,
+      "scale": 0.96,
+      "species": "alder"
+    },
+    {
+      "x": 191.36,
+      "z": -214.96,
+      "scale": 0.77,
+      "species": "ash"
+    },
+    {
+      "x": 6.39,
+      "z": -65.5,
+      "scale": 0.97,
+      "species": "oak"
+    },
+    {
+      "x": 113.62,
+      "z": -87.07,
+      "scale": 0.84,
+      "species": "oak"
+    },
+    {
+      "x": 180,
+      "z": -180.57,
+      "scale": 1.19,
+      "species": "oak"
+    },
+    {
+      "x": 183.83,
+      "z": -109.94,
+      "scale": 0.82,
+      "species": "oak"
+    },
+    {
+      "x": 117.98,
+      "z": -102.45,
+      "scale": 0.93,
+      "species": "oak"
+    },
+    {
+      "x": 143.81,
+      "z": -88.67,
+      "scale": 1.28,
+      "species": "oak"
+    },
+    {
+      "x": 192.42,
+      "z": -193.49,
+      "scale": 1.19,
+      "species": "ash"
+    },
+    {
+      "x": 179.75,
+      "z": -225.62,
+      "scale": 1.28,
+      "species": "alder"
+    },
+    {
+      "x": 25.83,
+      "z": -84.89,
+      "scale": 1.17,
+      "species": "alder"
+    },
+    {
+      "x": 88.51,
+      "z": -92.64,
+      "scale": 1.32,
+      "species": "ash"
+    },
+    {
+      "x": 200.92,
+      "z": -267.34,
+      "scale": 0.95,
+      "species": "alder"
+    },
+    {
+      "x": 142.1,
+      "z": -72.65,
+      "scale": 1.14,
+      "species": "oak"
+    },
+    {
+      "x": 147.68,
+      "z": -111.78,
+      "scale": 1.18,
+      "species": "oak"
+    },
+    {
+      "x": 182.8,
+      "z": -257.72,
+      "scale": 0.84,
+      "species": "ash"
+    },
+    {
+      "x": 102.69,
+      "z": -71.31,
+      "scale": 0.78,
+      "species": "ash"
+    },
+    {
+      "x": 160.37,
+      "z": -160.86,
+      "scale": 0.87,
+      "species": "oak"
+    },
+    {
+      "x": 188.21,
+      "z": -118.1,
+      "scale": 1.38,
+      "species": "oak"
+    },
+    {
+      "x": 132.33,
+      "z": -87.63,
+      "scale": 1.19,
+      "species": "alder"
+    },
+    {
+      "x": 201.56,
+      "z": -159.25,
+      "scale": 0.84,
+      "species": "oak"
+    },
+    {
+      "x": 172.98,
+      "z": -215.18,
+      "scale": 0.79,
+      "species": "alder"
+    },
+    {
+      "x": 177.79,
+      "z": -265.53,
+      "scale": 0.82,
+      "species": "oak"
+    },
+    {
+      "x": 176.22,
+      "z": -115.54,
+      "scale": 1.1,
+      "species": "oak"
+    },
+    {
+      "x": 215.32,
+      "z": -177.09,
+      "scale": 1.02,
+      "species": "alder"
+    },
+    {
+      "x": 228.06,
+      "z": -185.92,
+      "scale": 1.34,
+      "species": "ash"
+    },
+    {
+      "x": 167.62,
+      "z": -267.78,
+      "scale": 1.11,
+      "species": "alder"
+    },
+    {
+      "x": 178.87,
+      "z": -268.68,
+      "scale": 1.09,
+      "species": "ash"
+    },
+    {
+      "x": 218.42,
+      "z": -216.78,
+      "scale": 0.78,
+      "species": "ash"
+    },
+    {
+      "x": 172,
+      "z": -248.05,
+      "scale": 1.22,
+      "species": "alder"
+    },
+    {
+      "x": 199.36,
+      "z": -178.08,
+      "scale": 1,
+      "species": "alder"
+    },
+    {
+      "x": 194.91,
+      "z": -131.13,
+      "scale": 1.18,
+      "species": "ash"
+    },
+    {
+      "x": 158.73,
+      "z": -173.13,
+      "scale": 1.3,
+      "species": "ash"
+    },
+    {
+      "x": 192.29,
+      "z": -153.26,
+      "scale": 0.75,
+      "species": "ash"
+    },
+    {
+      "x": 215.12,
+      "z": -149.47,
+      "scale": 1.38,
+      "species": "oak"
+    },
+    {
+      "x": 169.63,
+      "z": -122.47,
+      "scale": 0.82,
+      "species": "ash"
+    },
+    {
+      "x": 226.95,
+      "z": -200.76,
+      "scale": 1.29,
+      "species": "oak"
+    },
+    {
+      "x": 270.82,
+      "z": -261.57,
+      "scale": 0.93,
+      "species": "ash"
+    },
+    {
+      "x": 205.22,
+      "z": -272.83,
+      "scale": 1.12,
+      "species": "oak"
+    },
+    {
+      "x": 165.03,
+      "z": -280.25,
+      "scale": 1.32,
+      "species": "ash"
+    },
+    {
+      "x": 188.24,
+      "z": -121.91,
+      "scale": 1.38,
+      "species": "ash"
+    },
+    {
+      "x": 81.01,
+      "z": -84.18,
+      "scale": 0.95,
+      "species": "ash"
+    },
+    {
+      "x": 186.35,
+      "z": -127.78,
+      "scale": 1.34,
+      "species": "oak"
+    },
+    {
+      "x": 219.16,
+      "z": -217.11,
+      "scale": 0.78,
+      "species": "alder"
+    },
+    {
+      "x": 195.46,
+      "z": -240.57,
+      "scale": 1.04,
+      "species": "oak"
+    },
+    {
+      "x": 177.55,
+      "z": -244.09,
+      "scale": 1.39,
+      "species": "ash"
+    },
+    {
+      "x": 226.21,
+      "z": -213.65,
+      "scale": 0.76,
+      "species": "alder"
+    },
+    {
+      "x": 214.61,
+      "z": -139.41,
+      "scale": 1.32,
+      "species": "alder"
+    },
+    {
+      "x": 203.42,
+      "z": -184.17,
+      "scale": 1.22,
+      "species": "ash"
+    },
+    {
+      "x": 116.06,
+      "z": -77.9,
+      "scale": 0.76,
+      "species": "alder"
+    },
+    {
+      "x": 150.63,
+      "z": -94.46,
+      "scale": 0.95,
+      "species": "ash"
+    },
+    {
+      "x": 62.13,
+      "z": -95.26,
+      "scale": 0.93,
+      "species": "ash"
+    },
+    {
+      "x": 198.19,
+      "z": -166.1,
+      "scale": 1.24,
+      "species": "ash"
+    },
+    {
+      "x": 172.47,
+      "z": -252.62,
+      "scale": 1,
+      "species": "alder"
+    },
+    {
+      "x": 261.64,
+      "z": -271.32,
+      "scale": 0.8,
+      "species": "alder"
+    },
+    {
+      "x": 142.37,
+      "z": -133.12,
+      "scale": 1.11,
+      "species": "oak"
+    },
+    {
+      "x": 189.08,
+      "z": -92.6,
+      "scale": 1.19,
+      "species": "oak"
+    },
+    {
+      "x": 101.89,
+      "z": -98.83,
+      "scale": 0.94,
+      "species": "oak"
+    },
+    {
+      "x": 172.13,
+      "z": -198.47,
+      "scale": 0.88,
+      "species": "ash"
+    },
+    {
+      "x": 213.16,
+      "z": -187.36,
+      "scale": 1.31,
+      "species": "oak"
+    },
+    {
+      "x": 255.41,
+      "z": -263.2,
+      "scale": 0.98,
+      "species": "ash"
+    },
+    {
+      "x": 150.48,
+      "z": -109.33,
+      "scale": 0.84,
+      "species": "alder"
+    },
+    {
+      "x": 170.81,
+      "z": -156.49,
+      "scale": 0.89,
+      "species": "alder"
+    },
+    {
+      "x": 150.2,
+      "z": -144.63,
+      "scale": 1.01,
+      "species": "ash"
+    },
+    {
+      "x": 170.59,
+      "z": -228.52,
+      "scale": 0.82,
+      "species": "oak"
+    },
+    {
+      "x": 180.95,
+      "z": -181.46,
+      "scale": 0.94,
+      "species": "ash"
+    },
+    {
+      "x": 276.51,
+      "z": -252.14,
+      "scale": 0.86,
+      "species": "oak"
+    },
+    {
+      "x": 170.44,
+      "z": -199.5,
+      "scale": 1.05,
+      "species": "alder"
+    },
+    {
+      "x": 284.32,
+      "z": -249.55,
+      "scale": 0.97,
+      "species": "ash"
+    },
+    {
+      "x": 219.17,
+      "z": -152.89,
+      "scale": 1.19,
+      "species": "oak"
+    },
+    {
+      "x": 213.22,
+      "z": -155.51,
+      "scale": 0.99,
+      "species": "alder"
+    },
+    {
+      "x": 182.89,
+      "z": -167.55,
+      "scale": 1.12,
+      "species": "oak"
+    },
+    {
+      "x": 142.27,
+      "z": -103.56,
+      "scale": 1.21,
+      "species": "alder"
+    },
+    {
+      "x": 166.51,
+      "z": -234.76,
+      "scale": 0.97,
+      "species": "ash"
+    },
+    {
+      "x": 147.73,
+      "z": -99.85,
+      "scale": 1.4,
+      "species": "oak"
+    },
+    {
+      "x": 254.18,
+      "z": -287.49,
+      "scale": 1.33,
+      "species": "alder"
+    },
+    {
+      "x": 136.7,
+      "z": -93.91,
+      "scale": 1.24,
+      "species": "oak"
+    },
+    {
+      "x": 289.65,
+      "z": -267.01,
+      "scale": 1.17,
+      "species": "alder"
+    },
+    {
+      "x": 254.72,
+      "z": -282.48,
+      "scale": 0.93,
+      "species": "alder"
+    },
+    {
+      "x": 255.6,
+      "z": -280.95,
+      "scale": 1.23,
+      "species": "oak"
+    },
+    {
+      "x": 284.22,
+      "z": -262.61,
+      "scale": 1.36,
+      "species": "alder"
+    },
+    {
+      "x": 288.26,
+      "z": -263.17,
+      "scale": 1.01,
+      "species": "alder"
+    },
+    {
+      "x": 203.45,
+      "z": -145.2,
+      "scale": 0.76,
+      "species": "alder"
+    },
+    {
+      "x": 212.19,
+      "z": -132.15,
+      "scale": 1.26,
+      "species": "alder"
+    },
+    {
+      "x": 161.05,
+      "z": -104.85,
+      "scale": 1.18,
+      "species": "alder"
+    },
+    {
+      "x": 41.29,
+      "z": -91.85,
+      "scale": 0.96,
+      "species": "alder"
+    },
+    {
+      "x": 170.45,
+      "z": -125.18,
+      "scale": 0.93,
+      "species": "ash"
+    },
+    {
+      "x": 213.26,
+      "z": -157.25,
+      "scale": 1.1,
+      "species": "ash"
+    },
+    {
+      "x": 190.91,
+      "z": -91.98,
+      "scale": 1.06,
+      "species": "alder"
+    },
+    {
+      "x": 149.25,
+      "z": -122.96,
+      "scale": 1.39,
+      "species": "ash"
+    },
+    {
+      "x": 96.56,
+      "z": -89.83,
+      "scale": 1.17,
+      "species": "oak"
+    },
+    {
+      "x": 171.59,
+      "z": -256.88,
+      "scale": 0.89,
+      "species": "alder"
+    },
+    {
+      "x": 197.09,
+      "z": -218.72,
+      "scale": 1.12,
+      "species": "alder"
+    },
+    {
+      "x": 271.56,
+      "z": -257.69,
+      "scale": 0.95,
+      "species": "alder"
+    },
+    {
+      "x": 151.36,
+      "z": -129.92,
+      "scale": 1.29,
+      "species": "oak"
+    },
+    {
+      "x": 286.85,
+      "z": -275.91,
+      "scale": 0.92,
+      "species": "oak"
+    },
+    {
+      "x": 216.58,
+      "z": -203.41,
+      "scale": 1.37,
+      "species": "oak"
+    },
+    {
+      "x": 188.59,
+      "z": -166.57,
+      "scale": 0.89,
+      "species": "oak"
+    },
+    {
+      "x": 167.7,
+      "z": -182.71,
+      "scale": 1.01,
+      "species": "ash"
+    },
+    {
+      "x": 276.55,
+      "z": -264.45,
+      "scale": 1.23,
+      "species": "alder"
+    },
+    {
+      "x": 23.21,
+      "z": -86.59,
+      "scale": 1.29,
+      "species": "oak"
+    },
+    {
+      "x": 26.28,
+      "z": -96.41,
+      "scale": 1.32,
+      "species": "ash"
+    },
+    {
+      "x": 281.3,
+      "z": -256.16,
+      "scale": 1.17,
+      "species": "oak"
+    },
+    {
+      "x": 251.6,
+      "z": -272.5,
+      "scale": 1.17,
+      "species": "oak"
+    },
+    {
+      "x": 187.38,
+      "z": -178.82,
+      "scale": 1.24,
+      "species": "oak"
+    },
+    {
+      "x": 224.43,
+      "z": -173.52,
+      "scale": 1.05,
+      "species": "alder"
+    },
+    {
+      "x": 140.4,
+      "z": -107.48,
+      "scale": 0.93,
+      "species": "alder"
+    },
+    {
+      "x": 156.76,
+      "z": -127.09,
+      "scale": 0.99,
+      "species": "ash"
+    },
+    {
+      "x": 199.16,
+      "z": -269.68,
+      "scale": 0.99,
+      "species": "oak"
+    },
+    {
+      "x": 197.64,
+      "z": -283.73,
+      "scale": 1.22,
+      "species": "alder"
+    },
+    {
+      "x": 177.15,
+      "z": -102.35,
+      "scale": 1.29,
+      "species": "alder"
+    },
+    {
+      "x": 211.44,
+      "z": -170.23,
+      "scale": 1.33,
+      "species": "ash"
+    },
+    {
+      "x": 191.78,
+      "z": -169.81,
+      "scale": 0.85,
+      "species": "oak"
+    },
+    {
+      "x": 171.8,
+      "z": -178.38,
+      "scale": 0.79,
+      "species": "ash"
+    },
+    {
+      "x": 16.27,
+      "z": -78.97,
+      "scale": 0.77,
+      "species": "alder"
+    },
+    {
+      "x": 284.17,
+      "z": -245.8,
+      "scale": 1.22,
+      "species": "oak"
+    },
+    {
+      "x": 140.56,
+      "z": -108.11,
+      "scale": 1.16,
+      "species": "alder"
+    },
+    {
+      "x": 95.04,
+      "z": -92.05,
+      "scale": 1.17,
+      "species": "oak"
+    },
+    {
+      "x": 186.41,
+      "z": -154.58,
+      "scale": 1.23,
+      "species": "oak"
+    },
+    {
+      "x": 125.69,
+      "z": -84.85,
+      "scale": 1.22,
+      "species": "ash"
+    },
+    {
+      "x": 273.08,
+      "z": -255.32,
+      "scale": 0.92,
+      "species": "ash"
+    },
+    {
+      "x": 226.82,
+      "z": -196.31,
+      "scale": 1.1,
+      "species": "ash"
+    },
+    {
+      "x": 208.89,
+      "z": -187.34,
+      "scale": 1.1,
+      "species": "ash"
+    },
+    {
+      "x": 189.84,
+      "z": -267.64,
+      "scale": 0.94,
+      "species": "alder"
+    },
+    {
+      "x": 28.36,
+      "z": -98.08,
+      "scale": 1.31,
+      "species": "alder"
+    },
+    {
+      "x": 165.52,
+      "z": -286.55,
+      "scale": 0.91,
+      "species": "alder"
+    },
+    {
+      "x": 100.29,
+      "z": -89.76,
+      "scale": 1.13,
+      "species": "alder"
+    },
+    {
+      "x": 277.69,
+      "z": -264.05,
+      "scale": 1.13,
+      "species": "oak"
+    },
+    {
+      "x": 162.29,
+      "z": -188.2,
+      "scale": 0.83,
+      "species": "alder"
+    },
+    {
+      "x": 288.26,
+      "z": -258.05,
+      "scale": 1.28,
+      "species": "oak"
+    },
+    {
+      "x": 190.28,
+      "z": -234.97,
+      "scale": 1.04,
+      "species": "alder"
+    },
+    {
+      "x": 179.86,
+      "z": -281.59,
+      "scale": 0.99,
+      "species": "ash"
+    },
+    {
+      "x": 103.49,
+      "z": -96.72,
+      "scale": 0.98,
+      "species": "oak"
+    },
+    {
+      "x": 206.23,
+      "z": -273.68,
+      "scale": 0.87,
+      "species": "ash"
+    },
+    {
+      "x": 129.63,
+      "z": -84.88,
+      "scale": 0.75,
+      "species": "alder"
+    },
+    {
+      "x": 166.63,
+      "z": -126.28,
+      "scale": 0.78,
+      "species": "ash"
+    },
+    {
+      "x": 66.02,
+      "z": -77.49,
+      "scale": 1.36,
+      "species": "ash"
+    },
+    {
+      "x": 176.1,
+      "z": -80.98,
+      "scale": 1.18,
+      "species": "oak"
+    },
+    {
+      "x": 191.06,
+      "z": -180.02,
+      "scale": 1.29,
+      "species": "alder"
+    },
+    {
+      "x": 176.47,
+      "z": -94.95,
+      "scale": 0.81,
+      "species": "ash"
+    },
+    {
+      "x": 16.57,
+      "z": -70.74,
+      "scale": 0.79,
+      "species": "ash"
+    },
+    {
+      "x": 215.72,
+      "z": -153.22,
+      "scale": 0.83,
+      "species": "alder"
+    },
+    {
+      "x": 218.02,
+      "z": -164.21,
+      "scale": 1.08,
+      "species": "oak"
+    },
+    {
+      "x": 259.43,
+      "z": -281.7,
+      "scale": 0.92,
+      "species": "alder"
+    },
+    {
+      "x": 164.67,
+      "z": -158.08,
+      "scale": 1.12,
+      "species": "ash"
+    },
+    {
+      "x": 186.15,
+      "z": -173.84,
+      "scale": 1.39,
+      "species": "alder"
+    },
+    {
+      "x": 60.53,
+      "z": -84.22,
+      "scale": 1.39,
+      "species": "oak"
+    },
+    {
+      "x": 154.2,
+      "z": -154.31,
+      "scale": 1.23,
+      "species": "alder"
+    },
+    {
+      "x": 204.15,
+      "z": -193.34,
+      "scale": 0.75,
+      "species": "ash"
+    },
+    {
+      "x": 136.01,
+      "z": -113.61,
+      "scale": 0.9,
+      "species": "alder"
+    },
+    {
+      "x": 190.27,
+      "z": -90.88,
+      "scale": 0.91,
+      "species": "alder"
+    },
+    {
+      "x": 286.07,
+      "z": -262.86,
+      "scale": 0.95,
+      "species": "alder"
+    },
+    {
+      "x": 177.01,
+      "z": -171.55,
+      "scale": 0.78,
+      "species": "oak"
+    },
+    {
+      "x": 168,
+      "z": -233.18,
+      "scale": 1.32,
+      "species": "ash"
+    },
+    {
+      "x": 273.25,
+      "z": -273.28,
+      "scale": 1.36,
+      "species": "ash"
+    },
+    {
+      "x": 228.04,
+      "z": -188.29,
+      "scale": 1.29,
+      "species": "alder"
+    },
+    {
+      "x": 190.78,
+      "z": -240.34,
+      "scale": 0.84,
+      "species": "ash"
+    },
+    {
+      "x": 202.85,
+      "z": -175.57,
+      "scale": 0.77,
+      "species": "alder"
+    },
+    {
+      "x": 22.85,
+      "z": -76.06,
+      "scale": 1.04,
+      "species": "oak"
+    },
+    {
+      "x": 137.74,
+      "z": -102.99,
+      "scale": 0.81,
+      "species": "ash"
+    },
+    {
+      "x": 4.04,
+      "z": -66.45,
+      "scale": 1.14,
+      "species": "alder"
+    },
+    {
+      "x": 180.14,
+      "z": -176.57,
+      "scale": 0.84,
+      "species": "ash"
+    },
+    {
+      "x": 169.53,
+      "z": -262.96,
+      "scale": 0.78,
+      "species": "oak"
+    },
+    {
+      "x": 3.19,
+      "z": -70.86,
+      "scale": 1.14,
+      "species": "ash"
+    },
+    {
+      "x": 175.96,
+      "z": -233.84,
+      "scale": 1.35,
+      "species": "oak"
+    },
+    {
+      "x": 92.25,
+      "z": -88.82,
+      "scale": 0.98,
+      "species": "alder"
+    },
+    {
+      "x": 163.5,
+      "z": -126.05,
+      "scale": 0.93,
+      "species": "ash"
+    },
+    {
+      "x": 278.81,
+      "z": -288.77,
+      "scale": 1.16,
+      "species": "ash"
+    },
+    {
+      "x": 162.17,
+      "z": -236.32,
+      "scale": 1.34,
+      "species": "oak"
+    },
+    {
+      "x": 164.66,
+      "z": -248.01,
+      "scale": 0.9,
+      "species": "ash"
+    },
+    {
+      "x": 177.43,
+      "z": -251.45,
+      "scale": 1.36,
+      "species": "oak"
+    },
+    {
+      "x": 39.38,
+      "z": -87.35,
+      "scale": 1.35,
+      "species": "oak"
+    },
+    {
+      "x": 205.34,
+      "z": -182.19,
+      "scale": 1.09,
+      "species": "ash"
+    },
+    {
+      "x": 198.12,
+      "z": -256.05,
+      "scale": 1.32,
+      "species": "ash"
+    },
+    {
+      "x": 206.32,
+      "z": -214.45,
+      "scale": 1.13,
+      "species": "ash"
+    },
+    {
+      "x": 198.51,
+      "z": -251.99,
+      "scale": 1.11,
+      "species": "ash"
+    },
+    {
+      "x": 155.2,
+      "z": -151.1,
+      "scale": 1.24,
+      "species": "oak"
+    },
+    {
+      "x": 202.54,
+      "z": -138.9,
+      "scale": 1.06,
+      "species": "alder"
+    },
+    {
+      "x": 126.57,
+      "z": -74.73,
+      "scale": 0.76,
+      "species": "alder"
+    },
+    {
+      "x": 193.04,
+      "z": -282.5,
+      "scale": 1.28,
+      "species": "oak"
+    },
+    {
+      "x": 246.63,
+      "z": -290.98,
+      "scale": 0.91,
+      "species": "ash"
+    },
+    {
+      "x": 192.22,
+      "z": -140.08,
+      "scale": 1.18,
+      "species": "ash"
+    },
+    {
+      "x": 142.64,
+      "z": -110.88,
+      "scale": 1.25,
+      "species": "alder"
+    },
+    {
+      "x": 127.34,
+      "z": -79.5,
+      "scale": 1.2,
+      "species": "alder"
+    },
+    {
+      "x": 267.31,
+      "z": -276.81,
+      "scale": 1.33,
+      "species": "oak"
+    },
+    {
+      "x": 46.31,
+      "z": -90.4,
+      "scale": 0.78,
+      "species": "oak"
+    },
+    {
+      "x": 162.54,
+      "z": -262.16,
+      "scale": 1.37,
+      "species": "alder"
+    },
+    {
+      "x": 150.55,
+      "z": -85.15,
+      "scale": 1.22,
+      "species": "oak"
+    },
+    {
+      "x": 163.24,
+      "z": -179.06,
+      "scale": 1.11,
+      "species": "oak"
+    },
+    {
+      "x": 272.42,
+      "z": -257.47,
+      "scale": 1.18,
+      "species": "oak"
+    },
+    {
+      "x": 154.96,
+      "z": -154.38,
+      "scale": 0.91,
+      "species": "oak"
+    },
+    {
+      "x": 210.83,
+      "z": -200.42,
+      "scale": 1.19,
+      "species": "alder"
+    },
+    {
+      "x": 167.45,
+      "z": -237.78,
+      "scale": 1.14,
+      "species": "oak"
+    },
+    {
+      "x": 222.02,
+      "z": -159.41,
+      "scale": 1.28,
+      "species": "oak"
+    },
+    {
+      "x": 197.23,
+      "z": -279.85,
+      "scale": 0.75,
+      "species": "oak"
+    },
+    {
+      "x": 179.02,
+      "z": -236.23,
+      "scale": 0.75,
+      "species": "oak"
+    },
+    {
+      "x": 189.42,
+      "z": -127.04,
+      "scale": 1.27,
+      "species": "alder"
+    },
+    {
+      "x": 162.63,
+      "z": -106.78,
+      "scale": 1.32,
+      "species": "oak"
+    },
+    {
+      "x": 116.59,
+      "z": -72.03,
+      "scale": 1.34,
+      "species": "oak"
+    },
+    {
+      "x": 165.3,
+      "z": -144.36,
+      "scale": 0.92,
+      "species": "ash"
+    },
+    {
+      "x": 128.44,
+      "z": -105.75,
+      "scale": 0.86,
+      "species": "ash"
+    },
+    {
+      "x": 194.34,
+      "z": -143.95,
+      "scale": 1.01,
+      "species": "alder"
+    },
+    {
+      "x": 201.24,
+      "z": -215.72,
+      "scale": 1.36,
+      "species": "oak"
+    },
+    {
+      "x": 47.86,
+      "z": -100.93,
+      "scale": 1.12,
+      "species": "oak"
+    },
+    {
+      "x": 215.35,
+      "z": -147.83,
+      "scale": 1.17,
+      "species": "oak"
+    },
+    {
+      "x": 179.2,
+      "z": -114.22,
+      "scale": 1.36,
+      "species": "oak"
+    },
+    {
+      "x": 161.77,
+      "z": -178.77,
+      "scale": 0.87,
+      "species": "oak"
+    },
+    {
+      "x": 160.3,
+      "z": -174.74,
+      "scale": 1.04,
+      "species": "alder"
+    },
+    {
+      "x": 212.86,
+      "z": -149.84,
+      "scale": 1.34,
+      "species": "oak"
+    },
+    {
+      "x": 163.38,
+      "z": -161.24,
+      "scale": 1.3,
+      "species": "ash"
+    },
+    {
+      "x": 256.92,
+      "z": -273.77,
+      "scale": 1.21,
+      "species": "alder"
+    },
+    {
+      "x": 5.69,
+      "z": -58.63,
+      "scale": 0.86,
+      "species": "ash"
+    },
+    {
+      "x": 179.6,
+      "z": -206.17,
+      "scale": 1.33,
+      "species": "oak"
+    },
+    {
+      "x": 165.39,
+      "z": -261.94,
+      "scale": 1.35,
+      "species": "ash"
+    },
+    {
+      "x": 144.12,
+      "z": -108.88,
+      "scale": 0.83,
+      "species": "alder"
+    },
+    {
+      "x": 138.55,
+      "z": -78.62,
+      "scale": 1.38,
+      "species": "alder"
+    },
+    {
+      "x": 186.53,
+      "z": -154.14,
+      "scale": 1.34,
+      "species": "oak"
+    },
+    {
+      "x": 160,
+      "z": -110.21,
+      "scale": 0.91,
+      "species": "oak"
+    },
+    {
+      "x": 186.52,
+      "z": -96.33,
+      "scale": 0.77,
+      "species": "alder"
+    },
+    {
+      "x": 211.93,
+      "z": -206.37,
+      "scale": 1.15,
+      "species": "ash"
+    },
+    {
+      "x": 46.13,
+      "z": -100,
+      "scale": 0.81,
+      "species": "ash"
+    },
+    {
+      "x": 163.71,
+      "z": -204.48,
+      "scale": 1.3,
+      "species": "alder"
+    },
+    {
+      "x": 203.61,
+      "z": -198.72,
+      "scale": 0.81,
+      "species": "oak"
+    },
+    {
+      "x": 187.33,
+      "z": -267.17,
+      "scale": 0.95,
+      "species": "oak"
+    },
+    {
+      "x": 120.43,
+      "z": 282.9,
+      "scale": 1.12,
+      "species": "ash"
+    },
+    {
+      "x": 38.22,
+      "z": 211.72,
+      "scale": 0.99,
+      "species": "alder"
+    },
+    {
+      "x": 51.4,
+      "z": 229.76,
+      "scale": 1.39,
+      "species": "alder"
+    },
+    {
+      "x": 19.44,
+      "z": 158.71,
+      "scale": 0.93,
+      "species": "alder"
+    },
+    {
+      "x": 155.65,
+      "z": 291.89,
+      "scale": 1.01,
+      "species": "ash"
+    },
+    {
+      "x": 83.24,
+      "z": 284.74,
+      "scale": 1.23,
+      "species": "ash"
+    },
+    {
+      "x": 79.05,
+      "z": 213.77,
+      "scale": 1.32,
+      "species": "alder"
+    },
+    {
+      "x": 89.14,
+      "z": 262.82,
+      "scale": 1.17,
+      "species": "alder"
+    },
+    {
+      "x": 110.04,
+      "z": 261.22,
+      "scale": 1.1,
+      "species": "alder"
+    },
+    {
+      "x": 81.13,
+      "z": 190.46,
+      "scale": 0.84,
+      "species": "oak"
+    },
+    {
+      "x": 66.97,
+      "z": 208.47,
+      "scale": 0.86,
+      "species": "oak"
+    },
+    {
+      "x": 16.84,
+      "z": 174.77,
+      "scale": 0.75,
+      "species": "ash"
+    },
+    {
+      "x": 9.82,
+      "z": 171.39,
+      "scale": 1,
+      "species": "ash"
+    },
+    {
+      "x": 89.88,
+      "z": 204.7,
+      "scale": 1.2,
+      "species": "alder"
+    },
+    {
+      "x": 95.36,
+      "z": 254.02,
+      "scale": 1.23,
+      "species": "oak"
+    },
+    {
+      "x": 21.38,
+      "z": 162.38,
+      "scale": 1.36,
+      "species": "alder"
+    },
+    {
+      "x": 119.01,
+      "z": 289.43,
+      "scale": 0.9,
+      "species": "oak"
+    },
+    {
+      "x": 27.17,
+      "z": 178.69,
+      "scale": 1.25,
+      "species": "ash"
+    },
+    {
+      "x": 87.86,
+      "z": 275.83,
+      "scale": 0.77,
+      "species": "ash"
+    },
+    {
+      "x": 116.68,
+      "z": 280.61,
+      "scale": 1.12,
+      "species": "alder"
+    },
+    {
+      "x": -4.96,
+      "z": 158.15,
+      "scale": 1.36,
+      "species": "alder"
+    },
+    {
+      "x": 42.03,
+      "z": 197.79,
+      "scale": 1.23,
+      "species": "alder"
+    },
+    {
+      "x": 79,
+      "z": 261.01,
+      "scale": 0.98,
+      "species": "oak"
+    },
+    {
+      "x": 68.66,
+      "z": 256.54,
+      "scale": 1.22,
+      "species": "alder"
+    },
+    {
+      "x": 123.7,
+      "z": 280.95,
+      "scale": 1.32,
+      "species": "alder"
+    },
+    {
+      "x": 57.17,
+      "z": 219.65,
+      "scale": 1.02,
+      "species": "alder"
+    },
+    {
+      "x": 89.21,
+      "z": 199.9,
+      "scale": 0.99,
+      "species": "ash"
+    },
+    {
+      "x": 95.32,
+      "z": 189.89,
+      "scale": 1.33,
+      "species": "oak"
+    },
+    {
+      "x": 108.89,
+      "z": 269.33,
+      "scale": 1.12,
+      "species": "alder"
+    },
+    {
+      "x": 131.26,
+      "z": 289.83,
+      "scale": 0.85,
+      "species": "alder"
+    },
+    {
+      "x": 73.38,
+      "z": 183.46,
+      "scale": 0.8,
+      "species": "oak"
+    },
+    {
+      "x": 104.2,
+      "z": 227.82,
+      "scale": 1.02,
+      "species": "ash"
+    },
+    {
+      "x": 84.32,
+      "z": 287.52,
+      "scale": 1.18,
+      "species": "alder"
+    },
+    {
+      "x": 34.33,
+      "z": 184.61,
+      "scale": 1.35,
+      "species": "oak"
+    },
+    {
+      "x": 170.45,
+      "z": 275.89,
+      "scale": 1.37,
+      "species": "alder"
+    },
+    {
+      "x": 11.57,
+      "z": 189.03,
+      "scale": 0.77,
+      "species": "ash"
+    },
+    {
+      "x": 124.41,
+      "z": 253.21,
+      "scale": 1.13,
+      "species": "oak"
+    },
+    {
+      "x": 127.54,
+      "z": 238.24,
+      "scale": 1.39,
+      "species": "alder"
+    },
+    {
+      "x": 136.2,
+      "z": 271.53,
+      "scale": 1.24,
+      "species": "alder"
+    },
+    {
+      "x": 74.91,
+      "z": 231.74,
+      "scale": 1.34,
+      "species": "ash"
+    },
+    {
+      "x": 93.06,
+      "z": 249.04,
+      "scale": 0.96,
+      "species": "oak"
+    },
+    {
+      "x": 0.85,
+      "z": 186.62,
+      "scale": 1.17,
+      "species": "alder"
+    },
+    {
+      "x": -34.74,
+      "z": 156.72,
+      "scale": 1.15,
+      "species": "ash"
+    },
+    {
+      "x": 50.24,
+      "z": 215.33,
+      "scale": 1.38,
+      "species": "oak"
+    },
+    {
+      "x": 135.4,
+      "z": 291.45,
+      "scale": 0.9,
+      "species": "alder"
+    },
+    {
+      "x": 137.02,
+      "z": 279.97,
+      "scale": 1.11,
+      "species": "ash"
+    },
+    {
+      "x": 121.08,
+      "z": 251.34,
+      "scale": 0.81,
+      "species": "ash"
+    },
+    {
+      "x": 21.1,
+      "z": 162.07,
+      "scale": 1.03,
+      "species": "alder"
+    },
+    {
+      "x": 79.81,
+      "z": 210.44,
+      "scale": 1.25,
+      "species": "ash"
+    },
+    {
+      "x": 95.13,
+      "z": 213.43,
+      "scale": 1.37,
+      "species": "oak"
+    },
+    {
+      "x": 37.7,
+      "z": 192.02,
+      "scale": 1.02,
+      "species": "alder"
+    },
+    {
+      "x": 40.65,
+      "z": 192.88,
+      "scale": 1.24,
+      "species": "ash"
+    },
+    {
+      "x": 119.77,
+      "z": 238.5,
+      "scale": 1.07,
+      "species": "oak"
+    },
+    {
+      "x": -46.14,
+      "z": 147.01,
+      "scale": 1.1,
+      "species": "ash"
+    },
+    {
+      "x": 61.32,
+      "z": 237.72,
+      "scale": 1.04,
+      "species": "oak"
+    },
+    {
+      "x": 75.58,
+      "z": 210.88,
+      "scale": 1.26,
+      "species": "ash"
+    },
+    {
+      "x": -33.61,
+      "z": 162.85,
+      "scale": 0.78,
+      "species": "alder"
+    },
+    {
+      "x": 15.02,
+      "z": 191.08,
+      "scale": 1.18,
+      "species": "oak"
+    },
+    {
+      "x": 149.89,
+      "z": 252.93,
+      "scale": 0.93,
+      "species": "ash"
+    },
+    {
+      "x": 71.05,
+      "z": 185.61,
+      "scale": 0.97,
+      "species": "alder"
+    },
+    {
+      "x": 130.81,
+      "z": 227.41,
+      "scale": 1.33,
+      "species": "oak"
+    },
+    {
+      "x": 62.83,
+      "z": 199.13,
+      "scale": 1.06,
+      "species": "oak"
+    },
+    {
+      "x": 99.35,
+      "z": 214.68,
+      "scale": 1.23,
+      "species": "ash"
+    },
+    {
+      "x": 87.97,
+      "z": 190.03,
+      "scale": 1.35,
+      "species": "alder"
+    },
+    {
+      "x": 8.81,
+      "z": 201.88,
+      "scale": 0.96,
+      "species": "alder"
+    },
+    {
+      "x": -9.73,
+      "z": 173.39,
+      "scale": 0.78,
+      "species": "oak"
+    },
+    {
+      "x": -39.32,
+      "z": 133.7,
+      "scale": 1.11,
+      "species": "oak"
+    },
+    {
+      "x": 100.73,
+      "z": 180.58,
+      "scale": 1.16,
+      "species": "ash"
+    },
+    {
+      "x": 128.79,
+      "z": 270.73,
+      "scale": 0.92,
+      "species": "oak"
+    },
+    {
+      "x": 94.94,
+      "z": 240.51,
+      "scale": 1.21,
+      "species": "alder"
+    },
+    {
+      "x": 99.44,
+      "z": 198.67,
+      "scale": 1.38,
+      "species": "ash"
+    },
+    {
+      "x": -4.51,
+      "z": 171.28,
+      "scale": 1.08,
+      "species": "alder"
+    },
+    {
+      "x": 10.44,
+      "z": 184.36,
+      "scale": 1.11,
+      "species": "oak"
+    },
+    {
+      "x": 82.74,
+      "z": 221.14,
+      "scale": 0.84,
+      "species": "ash"
+    },
+    {
+      "x": 54.74,
+      "z": 198.73,
+      "scale": 0.92,
+      "species": "ash"
+    },
+    {
+      "x": -10.82,
+      "z": 186.61,
+      "scale": 1.37,
+      "species": "oak"
+    },
+    {
+      "x": -7.84,
+      "z": 147.4,
+      "scale": 1.18,
+      "species": "alder"
+    },
+    {
+      "x": -1.33,
+      "z": 165.54,
+      "scale": 0.86,
+      "species": "ash"
+    },
+    {
+      "x": 109.01,
+      "z": 253.96,
+      "scale": 0.99,
+      "species": "ash"
+    },
+    {
+      "x": 7.8,
+      "z": 190.55,
+      "scale": 0.93,
+      "species": "ash"
+    },
+    {
+      "x": -10.81,
+      "z": 142.79,
+      "scale": 1.32,
+      "species": "ash"
+    },
+    {
+      "x": 137.45,
+      "z": 257.74,
+      "scale": 1.27,
+      "species": "alder"
+    },
+    {
+      "x": 92.27,
+      "z": 290.03,
+      "scale": 0.78,
+      "species": "alder"
+    },
+    {
+      "x": 63.66,
+      "z": 227.27,
+      "scale": 1.38,
+      "species": "oak"
+    },
+    {
+      "x": -29.24,
+      "z": 165.57,
+      "scale": 1.4,
+      "species": "oak"
+    },
+    {
+      "x": 60.67,
+      "z": 240.59,
+      "scale": 0.9,
+      "species": "alder"
+    },
+    {
+      "x": -37.19,
+      "z": 160.22,
+      "scale": 1,
+      "species": "alder"
+    },
+    {
+      "x": 79.06,
+      "z": 238.66,
+      "scale": 0.79,
+      "species": "oak"
+    },
+    {
+      "x": 98.59,
+      "z": 182.14,
+      "scale": 1.04,
+      "species": "alder"
+    },
+    {
+      "x": 67.63,
+      "z": 209.22,
+      "scale": 1.25,
+      "species": "oak"
+    },
+    {
+      "x": 111.14,
+      "z": 231.87,
+      "scale": 1.04,
+      "species": "alder"
+    },
+    {
+      "x": -1.8,
+      "z": 167.38,
+      "scale": 1.34,
+      "species": "alder"
+    },
+    {
+      "x": 141.62,
+      "z": 255.14,
+      "scale": 1.4,
+      "species": "alder"
+    },
+    {
+      "x": 8.64,
+      "z": 174.67,
+      "scale": 0.94,
+      "species": "alder"
+    },
+    {
+      "x": 123.23,
+      "z": 279.15,
+      "scale": 1.18,
+      "species": "alder"
+    },
+    {
+      "x": 96.01,
+      "z": 186.16,
+      "scale": 1.03,
+      "species": "oak"
+    },
+    {
+      "x": 29.93,
+      "z": 183.05,
+      "scale": 1.06,
+      "species": "oak"
+    },
+    {
+      "x": 139.53,
+      "z": 275.64,
+      "scale": 1.06,
+      "species": "alder"
+    },
+    {
+      "x": 60.81,
+      "z": 217.56,
+      "scale": 0.8,
+      "species": "oak"
+    },
+    {
+      "x": 122.21,
+      "z": 270.15,
+      "scale": 0.79,
+      "species": "oak"
+    },
+    {
+      "x": 103.17,
+      "z": 201.97,
+      "scale": 1.06,
+      "species": "ash"
+    },
+    {
+      "x": 77.51,
+      "z": 231.69,
+      "scale": 0.99,
+      "species": "oak"
+    },
+    {
+      "x": -32.61,
+      "z": 157.07,
+      "scale": 1.27,
+      "species": "ash"
+    },
+    {
+      "x": 14.25,
+      "z": 187.77,
+      "scale": 0.96,
+      "species": "oak"
+    },
+    {
+      "x": 145.87,
+      "z": 260.81,
+      "scale": 0.83,
+      "species": "alder"
+    },
+    {
+      "x": 173.36,
+      "z": 274.4,
+      "scale": 1.01,
+      "species": "ash"
+    },
+    {
+      "x": 97.33,
+      "z": 272.33,
+      "scale": 1.11,
+      "species": "oak"
+    },
+    {
+      "x": 73.89,
+      "z": 287.53,
+      "scale": 1.39,
+      "species": "ash"
+    },
+    {
+      "x": 26.59,
+      "z": 193.67,
+      "scale": 1.29,
+      "species": "oak"
+    },
+    {
+      "x": 15.54,
+      "z": 192.74,
+      "scale": 1.07,
+      "species": "ash"
+    },
+    {
+      "x": 91.33,
+      "z": 193.19,
+      "scale": 0.88,
+      "species": "alder"
+    },
+    {
+      "x": 55.13,
+      "z": 232.31,
+      "scale": 1.04,
+      "species": "oak"
+    },
+    {
+      "x": 7.33,
+      "z": 142.65,
+      "scale": 1.28,
+      "species": "ash"
+    },
+    {
+      "x": 174.87,
+      "z": 288.08,
+      "scale": 1.11,
+      "species": "ash"
+    },
+    {
+      "x": 63.76,
+      "z": 211.39,
+      "scale": 0.96,
+      "species": "alder"
+    },
+    {
+      "x": 17.33,
+      "z": 202.96,
+      "scale": 0.83,
+      "species": "oak"
+    },
+    {
+      "x": 151.81,
+      "z": 286.04,
+      "scale": 1.21,
+      "species": "ash"
+    },
+    {
+      "x": 102.94,
+      "z": 233.56,
+      "scale": 1.28,
+      "species": "alder"
+    },
+    {
+      "x": 98.25,
+      "z": 202.54,
+      "scale": 0.91,
+      "species": "oak"
+    },
+    {
+      "x": -33.78,
+      "z": 166.13,
+      "scale": 1.01,
+      "species": "ash"
+    },
+    {
+      "x": 72.37,
+      "z": 251.67,
+      "scale": 0.9,
+      "species": "alder"
+    },
+    {
+      "x": 25.6,
+      "z": 181.78,
+      "scale": 1.21,
+      "species": "ash"
+    },
+    {
+      "x": 84.13,
+      "z": 236.3,
+      "scale": 1,
+      "species": "ash"
+    },
+    {
+      "x": 83.31,
+      "z": 255.29,
+      "scale": 0.75,
+      "species": "oak"
+    },
+    {
+      "x": 30.11,
+      "z": 164.84,
+      "scale": 0.86,
+      "species": "oak"
+    },
+    {
+      "x": 11.54,
+      "z": 183.04,
+      "scale": 1.07,
+      "species": "oak"
+    },
+    {
+      "x": 140.98,
+      "z": 239.14,
+      "scale": 1.09,
+      "species": "ash"
+    },
+    {
+      "x": 153.98,
+      "z": 271.61,
+      "scale": 0.76,
+      "species": "oak"
+    },
+    {
+      "x": 18.23,
+      "z": 162.01,
+      "scale": 0.98,
+      "species": "oak"
+    },
+    {
+      "x": 138.57,
+      "z": 287.99,
+      "scale": 0.96,
+      "species": "ash"
+    },
+    {
+      "x": -35.32,
+      "z": 154.18,
+      "scale": 0.82,
+      "species": "oak"
+    },
+    {
+      "x": 60.32,
+      "z": 211.61,
+      "scale": 0.8,
+      "species": "oak"
+    },
+    {
+      "x": 95.08,
+      "z": 250.16,
+      "scale": 1.13,
+      "species": "ash"
+    },
+    {
+      "x": -14.14,
+      "z": 166.32,
+      "scale": 1.24,
+      "species": "oak"
+    },
+    {
+      "x": 157.37,
+      "z": 290.96,
+      "scale": 1.04,
+      "species": "ash"
+    },
+    {
+      "x": 92.18,
+      "z": 289.36,
+      "scale": 0.84,
+      "species": "oak"
+    },
+    {
+      "x": 1.04,
+      "z": 152.94,
+      "scale": 1.08,
+      "species": "ash"
+    },
+    {
+      "x": -4.97,
+      "z": 191.81,
+      "scale": 0.79,
+      "species": "ash"
+    },
+    {
+      "x": 10.62,
+      "z": 178.93,
+      "scale": 1.2,
+      "species": "oak"
+    },
+    {
+      "x": 72.79,
+      "z": 249.23,
+      "scale": 1.36,
+      "species": "oak"
+    },
+    {
+      "x": 134.26,
+      "z": 270.6,
+      "scale": 0.79,
+      "species": "alder"
+    },
+    {
+      "x": 73.99,
+      "z": 260.45,
+      "scale": 0.91,
+      "species": "oak"
+    },
+    {
+      "x": 93.12,
+      "z": 191.34,
+      "scale": 1.17,
+      "species": "alder"
+    },
+    {
+      "x": 164.56,
+      "z": 267.86,
+      "scale": 1.23,
+      "species": "ash"
+    },
+    {
+      "x": 148.95,
+      "z": 256.16,
+      "scale": 0.84,
+      "species": "ash"
+    },
+    {
+      "x": 77.34,
+      "z": 185.87,
+      "scale": 1.06,
+      "species": "ash"
+    },
+    {
+      "x": -9.4,
+      "z": 155.71,
+      "scale": 1.26,
+      "species": "alder"
+    },
+    {
+      "x": 16.42,
+      "z": 189.96,
+      "scale": 0.84,
+      "species": "oak"
+    },
+    {
+      "x": 26.78,
+      "z": 207.61,
+      "scale": 0.86,
+      "species": "alder"
+    },
+    {
+      "x": 26.55,
+      "z": 203.3,
+      "scale": 1.29,
+      "species": "oak"
+    },
+    {
+      "x": 92.64,
+      "z": 183.69,
+      "scale": 1.09,
+      "species": "ash"
+    },
+    {
+      "x": 143.77,
+      "z": 251.25,
+      "scale": 1.25,
+      "species": "oak"
+    },
+    {
+      "x": 71.2,
+      "z": 199.37,
+      "scale": 0.81,
+      "species": "ash"
+    },
+    {
+      "x": 43.22,
+      "z": 216.86,
+      "scale": 0.85,
+      "species": "alder"
+    },
+    {
+      "x": 101.58,
+      "z": 264.18,
+      "scale": 0.86,
+      "species": "ash"
+    },
+    {
+      "x": 112.65,
+      "z": 259.19,
+      "scale": 0.95,
+      "species": "ash"
+    },
+    {
+      "x": -5.87,
+      "z": 153.87,
+      "scale": 1.08,
+      "species": "oak"
+    },
+    {
+      "x": 109.62,
+      "z": 209.3,
+      "scale": 1.06,
+      "species": "oak"
+    },
+    {
+      "x": 103.17,
+      "z": 250.84,
+      "scale": 0.87,
+      "species": "ash"
+    },
+    {
+      "x": 43.34,
+      "z": 176.02,
+      "scale": 0.8,
+      "species": "ash"
+    },
+    {
+      "x": 42.92,
+      "z": 205.47,
+      "scale": 0.76,
+      "species": "alder"
+    },
+    {
+      "x": 101.88,
+      "z": 244.13,
+      "scale": 1.15,
+      "species": "oak"
+    },
+    {
+      "x": 69.31,
+      "z": 199.73,
+      "scale": 1.04,
+      "species": "oak"
+    },
+    {
+      "x": 102.04,
+      "z": 207.7,
+      "scale": 1.04,
+      "species": "alder"
+    },
+    {
+      "x": 107.95,
+      "z": 206.76,
+      "scale": 1.39,
+      "species": "oak"
+    },
+    {
+      "x": 158.25,
+      "z": 282.1,
+      "scale": 0.88,
+      "species": "ash"
+    },
+    {
+      "x": 117.19,
+      "z": 278.15,
+      "scale": 0.83,
+      "species": "alder"
+    },
+    {
+      "x": 7.18,
+      "z": 169.17,
+      "scale": 1.11,
+      "species": "alder"
+    },
+    {
+      "x": 95.54,
+      "z": 286.76,
+      "scale": 0.82,
+      "species": "ash"
+    },
+    {
+      "x": 34.3,
+      "z": 193.05,
+      "scale": 1.38,
+      "species": "alder"
+    },
+    {
+      "x": 21.31,
+      "z": 190.95,
+      "scale": 1.06,
+      "species": "alder"
+    },
+    {
+      "x": 147.78,
+      "z": 259.25,
+      "scale": 0.92,
+      "species": "alder"
+    },
+    {
+      "x": 6.04,
+      "z": 172.23,
+      "scale": 0.94,
+      "species": "ash"
+    },
+    {
+      "x": -44.34,
+      "z": 139.15,
+      "scale": 1.29,
+      "species": "alder"
+    },
+    {
+      "x": 23.96,
+      "z": 163.17,
+      "scale": 1.23,
+      "species": "ash"
+    },
+    {
+      "x": 92.11,
+      "z": 225.64,
+      "scale": 1.36,
+      "species": "oak"
+    },
+    {
+      "x": 39.36,
+      "z": 213.25,
+      "scale": 1.32,
+      "species": "alder"
+    },
+    {
+      "x": 101.61,
+      "z": 280.68,
+      "scale": 0.82,
+      "species": "alder"
+    },
+    {
+      "x": 134.96,
+      "z": 285.98,
+      "scale": 1.34,
+      "species": "ash"
+    },
+    {
+      "x": 89.53,
+      "z": 220.48,
+      "scale": 0.98,
+      "species": "alder"
+    },
+    {
+      "x": 104.83,
+      "z": 255.61,
+      "scale": 1.15,
+      "species": "ash"
+    },
+    {
+      "x": 148.09,
+      "z": 290.51,
+      "scale": 0.82,
+      "species": "ash"
+    },
+    {
+      "x": 66.03,
+      "z": 180.35,
+      "scale": 1.36,
+      "species": "oak"
+    },
+    {
+      "x": 82.63,
+      "z": 255.86,
+      "scale": 0.99,
+      "species": "oak"
+    },
+    {
+      "x": 61.02,
+      "z": 199.6,
+      "scale": 0.82,
+      "species": "ash"
+    },
+    {
+      "x": 0.43,
+      "z": 195.37,
+      "scale": 0.99,
+      "species": "alder"
+    },
+    {
+      "x": 134.17,
+      "z": 245.51,
+      "scale": 1.32,
+      "species": "ash"
+    },
+    {
+      "x": 29.47,
+      "z": 188.37,
+      "scale": 0.96,
+      "species": "ash"
+    },
+    {
+      "x": 168.16,
+      "z": 286.01,
+      "scale": 1.04,
+      "species": "ash"
+    },
+    {
+      "x": 143.12,
+      "z": 246.95,
+      "scale": 1.3,
+      "species": "alder"
+    },
+    {
+      "x": 70.46,
+      "z": 212.07,
+      "scale": 1.24,
+      "species": "alder"
+    },
+    {
+      "x": 138.23,
+      "z": 273.01,
+      "scale": 1.12,
+      "species": "alder"
+    },
+    {
+      "x": 33.58,
+      "z": 212.85,
+      "scale": 0.94,
+      "species": "ash"
+    },
+    {
+      "x": 85.55,
+      "z": 263.79,
+      "scale": 1.06,
+      "species": "ash"
+    },
+    {
+      "x": 8.88,
+      "z": 250.87,
+      "scale": 0.99,
+      "species": "alder"
+    },
+    {
+      "x": -52.59,
+      "z": 200.36,
+      "scale": 1.11,
+      "species": "alder"
+    },
+    {
+      "x": -67.77,
+      "z": 192.49,
+      "scale": 1.09,
+      "species": "alder"
+    },
+    {
+      "x": -130.66,
+      "z": 179,
+      "scale": 0.75,
+      "species": "alder"
+    },
+    {
+      "x": -137.96,
+      "z": 167.28,
+      "scale": 1.19,
+      "species": "alder"
+    },
+    {
+      "x": -178.46,
+      "z": 143.86,
+      "scale": 0.98,
+      "species": "willow"
+    },
+    {
+      "x": -239.98,
+      "z": 149.83,
+      "scale": 0.86,
+      "species": "alder"
+    },
+    {
+      "x": 170.77,
+      "z": -283.22,
+      "scale": 0.77,
+      "species": "alder"
+    },
+    {
+      "x": 156.59,
+      "z": -237.35,
+      "scale": 0.79,
+      "species": "alder"
+    },
+    {
+      "x": 171.32,
+      "z": -235.56,
+      "scale": 0.95,
+      "species": "alder"
+    },
+    {
+      "x": 137.86,
+      "z": -204.92,
+      "scale": 0.78,
+      "species": "willow"
+    },
+    {
+      "x": 138.79,
+      "z": -194.33,
+      "scale": 0.9,
+      "species": "willow"
+    },
+    {
+      "x": 90.67,
+      "z": -114.94,
+      "scale": 1.29,
+      "species": "alder"
+    },
+    {
+      "x": 26.88,
+      "z": -88.03,
+      "scale": 0.82,
+      "species": "alder"
+    },
+    {
+      "x": -3.49,
+      "z": -64.26,
+      "scale": 0.98,
+      "species": "alder"
+    },
+    {
+      "x": 2.31,
+      "z": -36.07,
+      "scale": 1.16,
+      "species": "alder"
+    },
+    {
+      "x": 3.3,
+      "z": 46.03,
+      "scale": 1.26,
+      "species": "alder"
+    },
+    {
+      "x": -36.39,
+      "z": 97.51,
+      "scale": 0.84,
+      "species": "alder"
+    },
+    {
+      "x": -62.91,
+      "z": 113.96,
+      "scale": 1.22,
+      "species": "alder"
+    },
+    {
+      "x": -99.41,
+      "z": 134.85,
+      "scale": 0.72,
+      "species": "alder"
+    },
+    {
+      "x": -110,
+      "z": -280,
+      "scale": 1.5,
+      "species": "oak"
+    },
+    {
+      "x": 45,
+      "z": 55,
+      "scale": 1.31,
+      "species": "hawthorn"
+    },
+    {
+      "x": 155,
+      "z": -10,
+      "scale": 1.22,
+      "species": "oak"
+    }
+  ],
+  "labels": [
+    {
+      "id": "lbl-lower-wych",
+      "name": "Lower Wych",
+      "subtitle": "Hamlet • SY14 7JX (Cheshire / Wrexham Border)",
+      "category": "hamlet",
+      "x": -102.4,
+      "z": 68.1,
+      "elevationOffset": 10
+    },
+    {
+      "id": "lbl-lower-wych-bridge",
+      "name": "Lower Wych Bridge",
+      "subtitle": "Grade II Listed Border Bridge (Wikidata Q29507102)",
+      "category": "landmark",
+      "x": -279.5,
+      "z": 132,
+      "elevationOffset": 5.5
+    },
+    {
+      "id": "lbl-valley-chapel",
+      "name": "Valley Chapel (SY14 7JX)",
+      "subtitle": "Converted Primitive Methodist Chapel • E 348770, N 344554",
+      "category": "landmark",
+      "x": -1.6,
+      "z": -0.7,
+      "elevationOffset": 9
+    },
+    {
+      "id": "lbl-vale-cottage",
+      "name": "Vale Cottage",
+      "subtitle": "Wigland Hall Lane • SY14 7JX (Geograph #4421157)",
+      "category": "building",
+      "x": 18,
+      "z": -29.5,
+      "elevationOffset": 9.5
+    },
+    {
+      "id": "lbl-brook-side",
+      "name": "Brook Side",
+      "subtitle": "Wigland Hall Lane • SY14 7JX (Geograph #4421157)",
+      "category": "building",
+      "x": 56.8,
+      "z": -45.5,
+      "elevationOffset": 9.5
+    },
+    {
+      "id": "lbl-coppice-cottage",
+      "name": "Coppice Cottage",
+      "subtitle": "Wigland Hall Lane • SY14 7JX",
+      "category": "building",
+      "x": 81.7,
+      "z": -49.4,
+      "elevationOffset": 9.5
+    },
+    {
+      "id": "lbl-olivers-cottage",
+      "name": "Olivers Cottage & Hill House",
+      "subtitle": "Wigland Hall Lane • SY14 7JX",
+      "category": "building",
+      "x": 143.1,
+      "z": -41.3,
+      "elevationOffset": 9.5
+    },
+    {
+      "id": "lbl-the-haven",
+      "name": "The Haven & Lower Lanes Farm",
+      "subtitle": "Junction of The Wychough & Lower Wych Road (Geograph #4421074 & #4421126)",
+      "category": "building",
+      "x": -223,
+      "z": 175,
+      "elevationOffset": 9.5
+    },
+    {
+      "id": "lbl-dutch-barn",
+      "name": "Lower Lanes Farm Dutch Barn",
+      "subtitle": "The Wychough • Geograph #4421074",
+      "category": "building",
+      "x": -262.5,
+      "z": 164,
+      "elevationOffset": 8.5
+    },
+    {
+      "id": "lbl-wych-brook-cottage",
+      "name": "Wych Brook Cottage",
+      "subtitle": "The Wychough • Lower Wych",
+      "category": "building",
+      "x": -237.4,
+      "z": 130.4,
+      "elevationOffset": 8.5
+    },
+    {
+      "id": "lbl-brook-farm-cottage",
+      "name": "Brook Farm Cottage",
+      "subtitle": "Wigland Hall Lane West",
+      "category": "building",
+      "x": -161.8,
+      "z": 181.2,
+      "elevationOffset": 8.5
+    },
+    {
+      "id": "lbl-the-graigs",
+      "name": "The Graigs & Howberry Bungalow",
+      "subtitle": "The Bishop Bennet Way (Geograph #4421148)",
+      "category": "building",
+      "x": -57.3,
+      "z": 172,
+      "elevationOffset": 8.5
+    },
+    {
+      "id": "lbl-beech-view",
+      "name": "Beech View",
+      "subtitle": "Hill Farm Entrance • SY14 7JX (OS 1:10,000 & Geograph #4420947)",
+      "category": "building",
+      "x": -174,
+      "z": -134.5,
+      "elevationOffset": 8.5
+    },
+    {
+      "id": "lbl-hill-farm",
+      "name": "Hill Farm",
+      "subtitle": "Historic Farmhouse & Courtyard Barns (Geograph #4420947)",
+      "category": "building",
+      "x": -87.6,
+      "z": -134,
+      "elevationOffset": 9.5
+    },
+    {
+      "id": "lbl-wellmeadow-wood",
+      "name": "Wellmeadow Wood & Stockton Dingle",
+      "subtitle": "Ancient Semi-Natural Valley Woodland (OS 1:10,000)",
+      "category": "landmark",
+      "x": 165,
+      "z": -120,
+      "elevationOffset": 10
+    },
+    {
+      "id": "lbl-scholars-wood",
+      "name": "Scholar's Wood & Cae Du Wood",
+      "subtitle": "Wych Brook Valley Woodland (OS 1:10,000)",
+      "category": "landmark",
+      "x": 65,
+      "z": 110,
+      "elevationOffset": 10
+    },
+    {
+      "id": "lbl-wych-brook",
+      "name": "Wych Brook",
+      "subtitle": "Historic England (Cheshire) – Wales (Wrexham) Border",
+      "category": "water",
+      "x": -132.8,
+      "z": 144.1,
+      "elevationOffset": 4.5
+    },
+    {
+      "id": "lbl-shothill-brook",
+      "name": "Shothill Brook",
+      "subtitle": "Tributary Stream in Wooded Valley",
+      "category": "water",
+      "x": -60,
+      "z": 240,
+      "elevationOffset": 4.5
+    },
+    {
+      "id": "lbl-lower-wych-road",
+      "name": "Lower Wych Road (C146)",
+      "subtitle": "Wrexham Border Lane (Geograph #4421126)",
+      "category": "street",
+      "x": -236,
+      "z": 220,
+      "elevationOffset": 4.5
+    },
+    {
+      "id": "lbl-the-wychough",
+      "name": "The Wychough",
+      "subtitle": "Country Lane over Lower Wych Bridge",
+      "category": "street",
+      "x": -252.6,
+      "z": 155.7,
+      "elevationOffset": 4.5
+    },
+    {
+      "id": "lbl-wigland-hall-lane",
+      "name": "Wigland Hall Lane",
+      "subtitle": "Hamlet Lane through SY14 7JX",
+      "category": "street",
+      "x": 15.8,
+      "z": 59.4,
+      "elevationOffset": 4.5
+    },
+    {
+      "id": "lbl-bishop-bennet-way",
+      "name": "The Bishop Bennet Way (Wigland FP 5)",
+      "subtitle": "Public Footpath & Long-Distance Trail",
+      "category": "street",
+      "x": -42,
+      "z": 170,
+      "elevationOffset": 4.5
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "vp-bridge-entering",
+      "name": "1. Entering Lower Wych (Bridge & Dutch Barn)",
+      "description": "From Lower Wych Bridge looking SE along The Wychough past the dark curved-roof Dutch barn on the right and Wych Brook Cottage on the left towards red-brick The Haven at the junction.",
+      "x": -278.5,
+      "z": 132.5,
+      "yawDeg": 136,
+      "pitchDeg": 2,
+      "referenceSource": "Geograph #4421074 \"Entering Lower Wych\" (Jeff Buck)"
+    },
+    {
+      "id": "vp-wrexham-road-north",
+      "name": "2. Lower Wych Road Looking North (Wrexham Border)",
+      "description": "Looking north up Lower Wych Road towards the junction with The Wychough, with the roadside red-brick barn on the left and 2-storey red-brick The Haven on the right.",
+      "x": -233.5,
+      "z": 208,
+      "yawDeg": 10,
+      "pitchDeg": 2,
+      "referenceSource": "Geograph #4421126 \"Lower Wych, Wrexham County\" (Jeff Buck)"
+    },
+    {
+      "id": "vp-hamlet-centre",
+      "name": "3. SY14 7JX: Valley Chapel, Vale Cottage & Brook Side",
+      "description": "On Wigland Hall Lane looking WSW around the bend past red-brick Brook Side and pale-green rendered Vale Cottage on the right towards red-brick Valley Chapel (SY14 7JX) on the left.",
+      "x": 78,
+      "z": -36,
+      "yawDeg": 254,
+      "pitchDeg": 2,
+      "referenceSource": "Geograph #4421157 \"The Bishop Bennet Way at Lower Wych\" (Jeff Buck)"
+    },
+    {
+      "id": "vp-hill-farm-entrance",
+      "name": "4. Entrance to Hill Farm & Beech View",
+      "description": "Looking east down the Hill Farm driveway off The Wychough between the high red-brick farmyard wall on the left and Beech View + mature oak tree + double garage on the right.",
+      "x": -194,
+      "z": -153.5,
+      "yawDeg": 94,
+      "pitchDeg": 2,
+      "referenceSource": "Geograph #4420947 \"Entrance to Hill Farm\" (Jeff Buck)"
+    },
+    {
+      "id": "vp-lower-wych-bridge",
+      "name": "5. Lower Wych Bridge (Grade II Listed)",
+      "description": "Looking NW across the Grade II listed sandstone ashlar parapets of Lower Wych Bridge over Wych Brook (England–Wales border).",
+      "x": -268.5,
+      "z": 139.8,
+      "yawDeg": 305,
+      "pitchDeg": 2,
+      "referenceSource": "Wikimedia Commons \"Lower Wych Bridge 01\" (Dave.Dunford, Q29507102)"
+    }
+  ]
+}

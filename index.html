@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Lower Wych (SY14 7JX) — Interactive 3D Walkthrough</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="app-root">
+      <canvas id="scene-canvas" aria-label="Interactive 3D first-person walkthrough of Lower Wych"></canvas>
+
+      <!-- 3D-to-2D Projected OSM Place & Landmark Labels -->
+      <div id="labels-layer" aria-live="polite"></div>
+
+      <!-- Top HUD: Hamlet Header & Compass Strip -->
+      <header class="hud-top">
+        <div class="hud-brand">
+          <div class="hud-brand__badge">SY14 7JX • SJ4844</div>
+          <h1 class="hud-brand__title">Lower Wych 3D</h1>
+          <p class="hud-brand__subtitle">Cheshire West &amp; Wrexham Border • EA 1m LIDAR DTM + OSM</p>
+        </div>
+
+        <div class="compass-card" aria-label="Compass and Grid Coordinates">
+          <div class="compass-window">
+            <div class="compass-Lubber">▼</div>
+            <div id="compass-tape-track" class="compass-tape">
+              <span>N</span><span>NE</span><span>E</span><span>SE</span><span>S</span><span>SW</span><span>W</span><span>NW</span>
+              <span>N</span><span>NE</span><span>E</span><span>SE</span><span>S</span><span>SW</span><span>W</span><span>NW</span>
+            </div>
+          </div>
+          <div class="compass-meta">
+            <span id="compass-heading" class="compass-heading">N 000°</span>
+            <span id="compass-coords" class="compass-coords">SJ 4877 4455 • 54.0m AOD</span>
+          </div>
+        </div>
+
+        <div class="hud-status">
+          <span id="fps-readout" class="fps-pill">60 FPS</span>
+          <span id="pointer-lock-status" class="pointer-pill">Click scene or drag to look around</span>
+        </div>
+      </header>
+
+      <!-- Bottom-Left HUD: Minimap -->
+      <aside class="minimap-panel" aria-label="Interactive Minimap">
+        <div class="minimap-header">
+          <span class="minimap-title">600m × 600m BBox (Click to Teleport)</span>
+          <span class="minimap-north">N ▲</span>
+        </div>
+        <div class="minimap-canvas-wrap">
+          <canvas id="minimap-canvas" width="196" height="196"></canvas>
+        </div>
+        <div class="minimap-legend">
+          <span><i class="dot dot--bldg"></i>Buildings</span>
+          <span><i class="dot dot--road"></i>Lanes</span>
+          <span><i class="dot dot--path"></i>Footpaths</span>
+          <span><i class="dot dot--water"></i>Wych Brook</span>
+        </div>
+      </aside>
+
+      <!-- Bottom-Center HUD: Viewpoint Presets & Active Viewpoint Info -->
+      <section class="viewpoints-panel" aria-label="Camera Viewpoints">
+        <div id="active-viewpoint-info" class="active-vp-banner">
+          <strong>Lower Wych Walkthrough</strong> — Use WASD + Mouse (Shift to sprint) or click a viewpoint below (Keys 1–5).
+        </div>
+        <div id="viewpoint-buttons" class="vp-buttons-row"></div>
+      </section>
+
+      <!-- Bottom-Right HUD: Environment Controls (Time of Day & Labels Toggle) -->
+      <aside class="controls-panel" aria-label="Environment and HUD Controls">
+        <div class="control-group">
+          <div class="control-label-row">
+            <label for="time-slider">Time of Day (Sun &amp; Fog)</label>
+            <span id="time-readout" class="time-readout">14:30</span>
+          </div>
+          <input
+            type="range"
+            id="time-slider"
+            min="5"
+            max="21"
+            step="0.1"
+            value="14.5"
+            aria-valuetext="14:30 BST"
+          />
+        </div>
+
+        <div class="control-group control-group--inline">
+          <label class="checkbox-label" for="labels-toggle">
+            <input type="checkbox" id="labels-toggle" class="checkbox-custom" checked />
+            <span>Show OSM Place Labels (Key L)</span>
+          </label>
+        </div>
+
+        <div class="controls-help">
+          <span><kbd>WASD</kbd> / <kbd>Arrows</kbd> Walk</span>
+          <span><kbd>Shift</kbd> Sprint</span>
+          <span><kbd>Mouse</kbd> / <kbd>Q</kbd><kbd>E</kbd> Look</span>
+          <span><kbd>1</kbd>–<kbd>5</kbd> Viewpoints</span>
+        </div>
+      </aside>
+
+      <!-- Mobile Touch Virtual Joystick -->
+      <div id="touch-joystick-zone" class="touch-joystick" aria-hidden="true">
+        <div id="touch-joystick-knob" class="touch-joystick__knob"></div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
