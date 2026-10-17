@@ -813,40 +813,41 @@
       }
     },
     {
-      "id": "bldg-lower-wych-road-barn",
-      "name": "Lower Wych Road Brick Barn",
-      "type": "barn",
+      "id": "bldg-brook-farm-cottage",
+      "name": "Brook Farm Cottage",
+      "type": "house",
       "footprint": [
         [
-          -247.68,
-          194.53
+          -241.15,
+          193.76
         ],
         [
-          -236.27,
-          199.62
+          -238.61,
+          205.7
         ],
         [
-          -239.32,
-          206.47
+          -245.85,
+          207.24
         ],
         [
-          -250.73,
-          201.38
+          -248.39,
+          195.3
         ]
       ],
       "center": [
         -243.5,
         200.5
       ],
-      "eavesHeight": 4.4,
-      "ridgeHeight": 6.5,
-      "levels": 1,
-      "wallMaterial": "brick",
+      "eavesHeight": 4.5,
+      "ridgeHeight": 6.8,
+      "levels": 2,
+      "wallMaterial": "render",
       "roofMaterial": "slate",
       "roofShape": "gabled",
+      "WallColorHex": "#e2d2b8",
       "tags": {
-        "building": "barn",
-        "name": "Lower Wych Road Brick Barn"
+        "building": "house",
+        "name": "Brook Farm Cottage"
       }
     },
     {
@@ -885,73 +886,78 @@
       }
     },
     {
-      "id": "bldg-lower-lanes-south-barn",
-      "type": "barn",
+      "id": "bldg-howberry-bungalow",
+      "name": "Howberry Bungalow",
+      "type": "house",
       "footprint": [
         [
-          -261.05,
-          236.57
+          -260.8,
+          225.81
         ],
         [
-          -255.4,
-          221.06
+          -246.52,
+          220.04
         ],
         [
-          -248.35,
-          223.63
+          -244.2,
+          225.79
         ],
         [
-          -254,
-          239.14
+          -258.48,
+          231.56
         ]
       ],
       "center": [
-        -254.7,
-        230.1
+        -252.5,
+        225.8
       ],
-      "eavesHeight": 3.4,
-      "ridgeHeight": 5,
+      "eavesHeight": 2.85,
+      "ridgeHeight": 4.45,
       "levels": 1,
-      "wallMaterial": "brick",
+      "wallMaterial": "render",
       "roofMaterial": "slate",
       "roofShape": "gabled",
+      "WallColorHex": "#e6d7ba",
       "tags": {
-        "building": "barn"
+        "building": "house",
+        "name": "Howberry Bungalow"
       }
     },
     {
       "id": "bldg-lower-lanes-west-shed",
+      "name": "Brook Farm Nursery Outbuilding",
       "type": "farm_auxiliary",
       "footprint": [
         [
-          -279.41,
-          228.81
+          -279.49,
+          229.59
         ],
         [
-          -270.38,
-          225.87
+          -270.68,
+          226.03
         ],
         [
-          -268.59,
-          231.39
+          -268.51,
+          231.41
         ],
         [
-          -277.62,
-          234.33
+          -277.32,
+          234.97
         ]
       ],
       "center": [
         -274,
-        230.1
+        230.5
       ],
-      "eavesHeight": 3.1,
-      "ridgeHeight": 4.4,
+      "eavesHeight": 3,
+      "ridgeHeight": 4.3,
       "levels": 1,
       "wallMaterial": "farm_clad",
       "roofMaterial": "metal",
       "roofShape": "gabled",
       "tags": {
-        "building": "farm_auxiliary"
+        "building": "farm_auxiliary",
+        "name": "Brook Farm Nursery Outbuilding"
       }
     },
     {
@@ -991,6 +997,7 @@
     },
     {
       "id": "bldg-wigland-west-outbuilding",
+      "name": "Wych Brook Cottage Outbuilding",
       "type": "outbuilding",
       "footprint": [
         [
@@ -1021,12 +1028,13 @@
       "roofMaterial": "slate",
       "roofShape": "gabled",
       "tags": {
-        "building": "outbuilding"
+        "building": "outbuilding",
+        "name": "Wych Brook Cottage Outbuilding"
       }
     },
     {
-      "id": "bldg-brook-farm-cottage",
-      "name": "Brook Farm Cottage",
+      "id": "bldg-wych-brook-east-cottage",
+      "name": "Wych Brook Cottage (East)",
       "type": "house",
       "footprint": [
         [
@@ -1058,44 +1066,7 @@
       "roofShape": "gabled",
       "tags": {
         "building": "house",
-        "name": "Brook Farm Cottage"
-      }
-    },
-    {
-      "id": "bldg-howberry-bungalow",
-      "name": "Howberry Bungalow",
-      "type": "house",
-      "footprint": [
-        [
-          -59.29,
-          154.41
-        ],
-        [
-          -49.53,
-          160.5
-        ],
-        [
-          -52.71,
-          165.59
-        ],
-        [
-          -62.47,
-          159.5
-        ]
-      ],
-      "center": [
-        -56,
-        160
-      ],
-      "eavesHeight": 3.4,
-      "ridgeHeight": 5.1,
-      "levels": 1,
-      "wallMaterial": "render",
-      "roofMaterial": "slate",
-      "roofShape": "gabled",
-      "tags": {
-        "building": "house",
-        "name": "Howberry Bungalow"
+        "name": "Wych Brook Cottage (East)"
       }
     },
     {
@@ -2549,6 +2520,25 @@
           383.18
         ]
       ]
+    },
+    {
+      "id": "way-howberry-driveway",
+      "name": "Howberry Bungalow Driveway",
+      "highway": "service",
+      "category": "country_lane",
+      "surface": "asphalt",
+      "width": 4.4,
+      "bridge": false,
+      "points": [
+        [
+          -235.8,
+          232.3
+        ],
+        [
+          -239.8,
+          234
+        ]
+      ]
     }
   ],
   "barriers": [
@@ -2830,18 +2820,6 @@
       "height": 1.18,
       "width": 1.25,
       "points": [
-        [
-          -232.53,
-          234.04
-        ],
-        [
-          -232.24,
-          233.28
-        ],
-        [
-          -231.16,
-          229.12
-        ],
         [
           -230.08,
           224.96
@@ -4161,7 +4139,7 @@
       ]
     },
     {
-      "id": "hedge-way-1481089974-1-3-1",
+      "id": "hedge-way-1481089974-1-3-3",
       "type": "hedge",
       "height": 1.18,
       "width": 1.25,
@@ -4213,6 +4191,14 @@
         [
           -76.78,
           149.8
+        ],
+        [
+          -73.37,
+          147.41
+        ],
+        [
+          -69.95,
+          145.03
         ]
       ]
     },
@@ -8342,12 +8328,6 @@
       "species": "ash"
     },
     {
-      "x": -10.82,
-      "z": 186.61,
-      "scale": 1.37,
-      "species": "oak"
-    },
-    {
       "x": -7.84,
       "z": 147.4,
       "scale": 1.18,
@@ -9056,45 +9036,51 @@
       "species": "ash"
     },
     {
-      "x": 8.88,
-      "z": 250.87,
-      "scale": 0.99,
-      "species": "alder"
-    },
-    {
-      "x": -52.59,
-      "z": 200.36,
-      "scale": 1.11,
-      "species": "alder"
-    },
-    {
-      "x": -67.77,
-      "z": 192.49,
+      "x": 16.23,
+      "z": 253.39,
       "scale": 1.09,
       "species": "alder"
     },
     {
-      "x": -130.66,
-      "z": 179,
-      "scale": 0.75,
+      "x": -53.68,
+      "z": 212.52,
+      "scale": 1.23,
       "species": "alder"
     },
     {
-      "x": -137.96,
-      "z": 167.28,
-      "scale": 1.19,
-      "species": "alder"
-    },
-    {
-      "x": -178.46,
-      "z": 143.86,
-      "scale": 0.98,
+      "x": -74.83,
+      "z": 198.15,
+      "scale": 0.87,
       "species": "willow"
     },
     {
-      "x": -239.98,
-      "z": 149.83,
-      "scale": 0.86,
+      "x": -117.48,
+      "z": 176.43,
+      "scale": 0.76,
+      "species": "alder"
+    },
+    {
+      "x": -123.16,
+      "z": 169.87,
+      "scale": 1.18,
+      "species": "willow"
+    },
+    {
+      "x": -171.99,
+      "z": 148.06,
+      "scale": 0.74,
+      "species": "willow"
+    },
+    {
+      "x": -237.18,
+      "z": 147.7,
+      "scale": 1.26,
+      "species": "alder"
+    },
+    {
+      "x": -280.79,
+      "z": 143.15,
+      "scale": 0.81,
       "species": "alder"
     },
     {
@@ -9176,22 +9162,10 @@
       "species": "alder"
     },
     {
-      "x": -110,
-      "z": -280,
-      "scale": 1.5,
-      "species": "oak"
-    },
-    {
-      "x": 45,
-      "z": 55,
-      "scale": 1.31,
-      "species": "hawthorn"
-    },
-    {
       "x": 155,
       "z": -10,
-      "scale": 1.22,
-      "species": "oak"
+      "scale": 1.31,
+      "species": "hawthorn"
     }
   ],
   "labels": [
@@ -9221,6 +9195,24 @@
       "x": -1.6,
       "z": -0.7,
       "elevationOffset": 9
+    },
+    {
+      "id": "lbl-howberry-bungalow",
+      "name": "Howberry Bungalow (SY14 7JX)",
+      "subtitle": "Lower Wych Road • Detached L-Shaped Bungalow & Double Garage",
+      "category": "landmark",
+      "x": -252.5,
+      "z": 225.8,
+      "elevationOffset": 7.5
+    },
+    {
+      "id": "lbl-brook-farm-cottage",
+      "name": "Brook Farm Cottage",
+      "subtitle": "Lower Wych Road • SY14 7JX",
+      "category": "building",
+      "x": -243.5,
+      "z": 200.5,
+      "elevationOffset": 8.5
     },
     {
       "id": "lbl-vale-cottage",
@@ -9286,17 +9278,8 @@
       "elevationOffset": 8.5
     },
     {
-      "id": "lbl-brook-farm-cottage",
-      "name": "Brook Farm Cottage",
-      "subtitle": "Wigland Hall Lane West",
-      "category": "building",
-      "x": -161.8,
-      "z": 181.2,
-      "elevationOffset": 8.5
-    },
-    {
       "id": "lbl-the-graigs",
-      "name": "The Graigs & Howberry Bungalow",
+      "name": "The Graigs",
       "subtitle": "The Bishop Bennet Way (Geograph #4421148)",
       "category": "building",
       "x": -57.3,
@@ -9396,19 +9379,19 @@
   ],
   "viewpoints": [
     {
-      "id": "vp-bridge-entering",
-      "name": "1. Entering Lower Wych (Bridge & Dutch Barn)",
-      "description": "From Lower Wych Bridge looking SE along The Wychough past the dark curved-roof Dutch barn on the right and Wych Brook Cottage on the left towards red-brick The Haven at the junction.",
-      "x": -278.5,
-      "z": 132.5,
-      "yawDeg": 136,
+      "id": "vp-howberry-bungalow",
+      "name": "1. Howberry Bungalow (Lower Wych Road, SY14 7JX)",
+      "description": "Looking WNW across the tarmac courtyard of Howberry Bungalow at the cream-rendered bungalow, Georgian-bar windows, French patio doors, Velux skylights, attached double garage, and red-brick trellis wall.",
+      "x": -238.5,
+      "z": 235.5,
+      "yawDeg": 298,
       "pitchDeg": 2,
-      "referenceSource": "Geograph #4421074 \"Entering Lower Wych\" (Jeff Buck)"
+      "referenceSource": "OS Grid SJ 48520 44325 & Rightmove #17127317 (Howberry Bungalow)"
     },
     {
       "id": "vp-wrexham-road-north",
-      "name": "2. Lower Wych Road Looking North (Wrexham Border)",
-      "description": "Looking north up Lower Wych Road towards the junction with The Wychough, with the roadside red-brick barn on the left and 2-storey red-brick The Haven on the right.",
+      "name": "2. Lower Wych Road Looking North (Brook Farm Cottage & The Haven)",
+      "description": "Looking north up Lower Wych Road from outside Howberry Bungalow past Brook Farm Cottage on the left and 2-storey red-brick The Haven on the right.",
       "x": -233.5,
       "z": 208,
       "yawDeg": 10,

@@ -676,20 +676,21 @@ async function main() {
       shape: 'gabled',
     },
     {
-      id: 'bldg-lower-wych-road-barn',
-      name: 'Lower Wych Road Brick Barn',
-      type: 'barn',
+      id: 'bldg-brook-farm-cottage',
+      name: 'Brook Farm Cottage',
+      type: 'house',
       cx: -243.5,
       cz: 200.5,
-      w: 12.5,
-      d: 7.5,
-      angle: 24,
-      eaves: 4.4,
-      ridge: 6.5,
-      levels: 1,
-      wall: 'brick',
+      w: 12.2,
+      d: 7.4,
+      angle: 78,
+      eaves: 4.5,
+      ridge: 6.8,
+      levels: 2,
+      wall: 'render',
       roof: 'slate',
       shape: 'gabled',
+      color: '#e2d2b8', // Warm cream render with slate roof (Rightmove #18552035 photo)
     },
     {
       id: 'bldg-lower-wych-road-shed',
@@ -707,30 +708,33 @@ async function main() {
       shape: 'gabled',
     },
     {
-      id: 'bldg-lower-lanes-south-barn',
-      type: 'barn',
-      cx: -254.7,
-      cz: 230.1,
-      w: 16.5,
-      d: 7.5,
-      angle: -70,
-      eaves: 3.4,
-      ridge: 5.0,
+      id: 'bldg-howberry-bungalow',
+      name: 'Howberry Bungalow',
+      type: 'house',
+      cx: -252.5,
+      cz: 225.8,
+      w: 15.4,
+      d: 6.2,
+      angle: -22,
+      eaves: 2.85,
+      ridge: 4.45,
       levels: 1,
-      wall: 'brick',
+      wall: 'render',
       roof: 'slate',
       shape: 'gabled',
+      color: '#e6d7ba', // Smooth cream/buff render with slate roof & L-shaped kitchen/double-garage courtyard wing
     },
     {
       id: 'bldg-lower-lanes-west-shed',
+      name: 'Brook Farm Nursery Outbuilding',
       type: 'farm_auxiliary',
       cx: -274.0,
-      cz: 230.1,
+      cz: 230.5,
       w: 9.5,
       d: 5.8,
-      angle: -18,
-      eaves: 3.1,
-      ridge: 4.4,
+      angle: -22,
+      eaves: 3.0,
+      ridge: 4.3,
       levels: 1,
       wall: 'farm_clad',
       roof: 'metal',
@@ -753,6 +757,7 @@ async function main() {
     },
     {
       id: 'bldg-wigland-west-outbuilding',
+      name: 'Wych Brook Cottage Outbuilding',
       type: 'outbuilding',
       cx: -197.7,
       cz: 180.3,
@@ -767,8 +772,8 @@ async function main() {
       shape: 'gabled',
     },
     {
-      id: 'bldg-brook-farm-cottage',
-      name: 'Brook Farm Cottage',
+      id: 'bldg-wych-brook-east-cottage',
+      name: 'Wych Brook Cottage (East)',
       type: 'house',
       cx: -161.8,
       cz: 181.2,
@@ -779,22 +784,6 @@ async function main() {
       ridge: 7.4,
       levels: 2,
       wall: 'brick',
-      roof: 'slate',
-      shape: 'gabled',
-    },
-    {
-      id: 'bldg-howberry-bungalow',
-      name: 'Howberry Bungalow',
-      type: 'house',
-      cx: -56.0,
-      cz: 160.0,
-      w: 11.5,
-      d: 6.0,
-      angle: 32,
-      eaves: 3.4,
-      ridge: 5.1,
-      levels: 1,
-      wall: 'render',
       roof: 'slate',
       shape: 'gabled',
     },
@@ -980,6 +969,21 @@ async function main() {
     });
   }
 
+  // Add Howberry Bungalow tarmac driveway connecting Lower Wych Road into the courtyard
+  roads.push({
+    id: 'way-howberry-driveway',
+    name: 'Howberry Bungalow Driveway',
+    highway: 'service',
+    category: 'country_lane',
+    surface: 'asphalt',
+    width: 4.4,
+    bridge: false,
+    points: [
+      [-235.8, 232.3],
+      [-239.8, 234.0],
+    ],
+  });
+
   // Generate roadside & field-boundary hawthorn hedgerows (as seen in Geograph 4421061 & 2362181)
   // Keep generous gaps near road intersections, bridges, and building frontages
   for (const road of roads) {
@@ -1118,7 +1122,7 @@ async function main() {
       if (minDistToPolyline(x, z, r.points) < r.width * 0.5 + 4.5) return false;
     }
     for (const b of buildings) {
-      if (Math.hypot(x - b.center[0], z - b.center[1]) < 14) return false;
+      if (Math.hypot(x - b.center[0], z - b.center[1]) < 16) return false;
     }
     return true;
   };
@@ -1230,6 +1234,24 @@ async function main() {
       elevationOffset: 9.0,
     },
     {
+      id: 'lbl-howberry-bungalow',
+      name: 'Howberry Bungalow (SY14 7JX)',
+      subtitle: 'Lower Wych Road • Detached L-Shaped Bungalow & Double Garage',
+      category: 'landmark',
+      x: -252.5,
+      z: 225.8,
+      elevationOffset: 7.5,
+    },
+    {
+      id: 'lbl-brook-farm-cottage',
+      name: 'Brook Farm Cottage',
+      subtitle: 'Lower Wych Road • SY14 7JX',
+      category: 'building',
+      x: -243.5,
+      z: 200.5,
+      elevationOffset: 8.5,
+    },
+    {
       id: 'lbl-vale-cottage',
       name: 'Vale Cottage',
       subtitle: 'Wigland Hall Lane • SY14 7JX (Geograph #4421157)',
@@ -1293,17 +1315,8 @@ async function main() {
       elevationOffset: 8.5,
     },
     {
-      id: 'lbl-brook-farm-cottage',
-      name: 'Brook Farm Cottage',
-      subtitle: 'Wigland Hall Lane West',
-      category: 'building',
-      x: -161.8,
-      z: 181.2,
-      elevationOffset: 8.5,
-    },
-    {
       id: 'lbl-the-graigs',
-      name: 'The Graigs & Howberry Bungalow',
+      name: 'The Graigs',
       subtitle: 'The Bishop Bennet Way (Geograph #4421148)',
       category: 'building',
       x: -57.3,
@@ -1402,24 +1415,24 @@ async function main() {
     }
   );
 
-  // Curated camera viewpoints matching the exact photographer locations & bearings of the Geograph / Wikimedia Commons photos
+  // Curated camera viewpoints matching the exact photographer locations & bearings of the Geograph / Wikimedia Commons / Property photos
   const viewpoints: ViewpointPreset[] = [
     {
-      id: 'vp-bridge-entering',
-      name: '1. Entering Lower Wych (Bridge & Dutch Barn)',
+      id: 'vp-howberry-bungalow',
+      name: '1. Howberry Bungalow (Lower Wych Road, SY14 7JX)',
       description:
-        'From Lower Wych Bridge looking SE along The Wychough past the dark curved-roof Dutch barn on the right and Wych Brook Cottage on the left towards red-brick The Haven at the junction.',
-      x: -278.5,
-      z: 132.5,
-      yawDeg: 136,
+        'Looking WNW across the tarmac courtyard of Howberry Bungalow at the cream-rendered bungalow, Georgian-bar windows, French patio doors, Velux skylights, attached double garage, and red-brick trellis wall.',
+      x: -238.5,
+      z: 235.5,
+      yawDeg: 298,
       pitchDeg: 2,
-      referenceSource: 'Geograph #4421074 "Entering Lower Wych" (Jeff Buck)',
+      referenceSource: 'OS Grid SJ 48520 44325 & Rightmove #17127317 (Howberry Bungalow)',
     },
     {
       id: 'vp-wrexham-road-north',
-      name: '2. Lower Wych Road Looking North (Wrexham Border)',
+      name: '2. Lower Wych Road Looking North (Brook Farm Cottage & The Haven)',
       description:
-        'Looking north up Lower Wych Road towards the junction with The Wychough, with the roadside red-brick barn on the left and 2-storey red-brick The Haven on the right.',
+        'Looking north up Lower Wych Road from outside Howberry Bungalow past Brook Farm Cottage on the left and 2-storey red-brick The Haven on the right.',
       x: -233.5,
       z: 208.0,
       yawDeg: 10,
@@ -1528,6 +1541,21 @@ async function main() {
           r = r * blend + yardR * (1 - blend);
           g = g * blend + yardG * (1 - blend);
           b = b * blend + yardB * (1 - blend);
+        }
+      }
+
+      // Bake Howberry Bungalow's tarmac parking courtyard directly into the terrain texture
+      {
+        const dxH = x - -252.5;
+        const dzH = z - 225.8;
+        const cosH = Math.cos((22 * Math.PI) / 180);
+        const sinH = Math.sin((22 * Math.PI) / 180);
+        const lxH = dxH * cosH - dzH * sinH;
+        const lzH = dxH * sinH + dzH * cosH;
+        if (lxH >= -2.5 && lxH <= 11.2 && lzH >= 2.6 && lzH <= 15.6) {
+          r = 56 + n2 * 2;
+          g = 58 + n2 * 2;
+          b = 63 + n2 * 2;
         }
       }
 
